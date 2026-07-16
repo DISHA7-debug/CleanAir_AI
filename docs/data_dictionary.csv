@@ -1,0 +1,11 @@
+file,description
+station_aqi_history.csv,Hourly station-level AQI history collected from CPCB/data.gov.in API.
+station_source_attributed.csv,"Station-level AQI, weather, geospatial proxy, and source attribution features."
+test_predictions_with_uncertainty.csv,Notebook 04 test predictions with AQI prediction intervals.
+station_advanced_intelligence.csv,"Final station-level advanced intelligence with hotspot, priority, and intervention scores."
+city_advanced_intelligence_summary.csv,City-level aggregation of advanced AQI intelligence.
+aqi_model_comparison.csv,"Comparison of forecasting models using MAE, RMSE, and R2."
+feature_importance.csv,Feature importance from the best forecasting model.
+ablation_results.csv,Ablation study showing performance contribution of feature groups.
+cleanair_advanced_hotspot_map.html,Interactive station hotspot map.
+best_aqi_forecast_model.pkl,Saved best AQI forecasting model.

@@ -1,0 +1,2 @@
+best_model,mae,rmse,r2,improvement_over_persistence_percent,category_accuracy,high_aqi_precision,high_aqi_recall,high_aqi_f1,unique_timestamps,train_rows,test_rows
+Random Forest,14.5002,39.879,0.8718,4.22,0.8905,0.9634,0.9922,0.9776,12,4124,1032

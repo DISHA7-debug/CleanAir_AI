@@ -1,0 +1,14 @@
+{
+    "notebook": "02_weather_geospatial_integration.ipynb",
+    "run_time": "2026-07-16 10:51:20",
+    "input_file": "C:\\Users\\Lenovo\\Desktop\\CleanAir_AI\\data\\processed\\station_intelligence_latest.csv",
+    "input_rows": 500,
+    "output_rows": 500,
+    "unique_stations": 500,
+    "unique_cities": 264,
+    "unique_states": 29,
+    "weather_available_rows": 500,
+    "weather_missing_rows": 0,
+    "output_file": "C:\\Users\\Lenovo\\Desktop\\CleanAir_AI\\data\\processed\\station_weather_geospatial.csv",
+    "city_summary_file": "C:\\Users\\Lenovo\\Desktop\\CleanAir_AI\\data\\processed\\city_weather_geospatial_summary.csv"
+}

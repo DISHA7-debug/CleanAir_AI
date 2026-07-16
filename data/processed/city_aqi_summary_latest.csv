@@ -1,0 +1,267 @@
+state,city,station_count,valid_station_count,mean_aqi,max_aqi,severe_station_count,very_poor_station_count,poor_station_count,city_risk_level,data_quality
+Andhra Pradesh,Amaravati,1,1,500.0,500.0,1,0,0,Severe,Valid station data available
+Andhra Pradesh,Anantapur,1,1,329.7,329.7,0,1,0,Very Poor,Valid station data available
+Andhra Pradesh,Chittoor,1,1,323.85,323.85,0,1,0,Very Poor,Valid station data available
+Andhra Pradesh,Eluru,1,1,306.27,306.27,0,1,0,Very Poor,Valid station data available
+Andhra Pradesh,Guntur,1,1,271.3,271.3,0,0,1,Poor,Valid station data available
+Andhra Pradesh,Kadapa,1,1,364.85,364.85,0,1,0,Very Poor,Valid station data available
+Andhra Pradesh,Kurnool,1,1,174.94,174.94,0,0,0,Moderate,Valid station data available
+Andhra Pradesh,Machilipatnam,1,1,317.99,317.99,0,1,0,Very Poor,Valid station data available
+Andhra Pradesh,Nellore,1,1,412.83,412.83,1,0,0,Severe,Valid station data available
+Andhra Pradesh,Rajamahendravaram,1,1,353.14,353.14,0,1,0,Very Poor,Valid station data available
+Andhra Pradesh,Tirumala,1,1,162.41,162.41,0,0,0,Moderate,Valid station data available
+Andhra Pradesh,Tirupati,1,1,323.85,323.85,0,1,0,Very Poor,Valid station data available
+Andhra Pradesh,Vijayawada,4,4,391.04,481.32,1,3,0,Very Poor,Valid station data available
+Andhra Pradesh,Visakhapatnam,1,1,228.26,228.26,0,0,1,Poor,Valid station data available
+Assam,Byrnihat,1,1,500.0,500.0,1,0,0,Severe,Valid station data available
+Assam,Guwahati,4,4,297.8,406.6,1,1,1,Poor,Valid station data available
+Assam,Nagaon,1,1,329.7,329.7,0,1,0,Very Poor,Valid station data available
+Assam,Nalbari,1,1,323.85,323.85,0,1,0,Very Poor,Valid station data available
+Assam,Silchar,1,1,388.28,388.28,0,1,0,Very Poor,Valid station data available
+Assam,Sivasagar,1,1,312.13,312.13,0,1,0,Very Poor,Valid station data available
+Bihar,Araria,1,1,317.99,317.99,0,1,0,Very Poor,Valid station data available
+Bihar,Arrah,1,1,487.55,487.55,1,0,0,Severe,Valid station data available
+Bihar,Aurangabad,1,0,,,0,0,0,Unknown,No valid AQI station after pollutant coverage check
+Bihar,Begusarai,1,1,300.0,300.0,0,0,1,Poor,Valid station data available
+Bihar,Bettiah,1,0,,,0,0,0,Unknown,No valid AQI station after pollutant coverage check
+Bihar,Bhagalpur,2,1,323.85,323.85,0,1,0,Very Poor,Valid station data available
+Bihar,Bihar Sharif,1,1,500.0,500.0,1,0,0,Severe,Valid station data available
+Bihar,Buxar,1,1,347.28,347.28,0,1,0,Very Poor,Valid station data available
+Bihar,Chhapra,1,1,500.0,500.0,1,0,0,Severe,Valid station data available
+Bihar,Gaya,2,2,380.42,425.28,1,1,0,Very Poor,Valid station data available
+Bihar,Hajipur,1,1,406.6,406.6,1,0,0,Severe,Valid station data available
+Bihar,Katihar,1,1,500.0,500.0,1,0,0,Severe,Valid station data available
+Bihar,Kishanganj,1,1,256.96,256.96,0,0,1,Poor,Valid station data available
+Bihar,Manguraha,1,0,,,0,0,0,Unknown,No valid AQI station after pollutant coverage check
+Bihar,Motihari,1,1,228.26,228.26,0,0,1,Poor,Valid station data available
+Bihar,Munger,1,1,412.83,412.83,1,0,0,Severe,Valid station data available
+Bihar,Muzaffarpur,3,3,328.51,419.06,1,1,1,Very Poor,Valid station data available
+Bihar,Patna,6,6,369.74,500.0,3,2,0,Very Poor,Valid station data available
+Bihar,Purnia,1,1,500.0,500.0,1,0,0,Severe,Valid station data available
+Bihar,Rajgir,1,1,456.42,456.42,1,0,0,Severe,Valid station data available
+Bihar,Saharsa,1,1,431.51,431.51,1,0,0,Severe,Valid station data available
+Bihar,Samastipur,1,1,124.81,124.81,0,0,0,Moderate,Valid station data available
+Bihar,Sasaram,1,0,,,0,0,0,Unknown,No valid AQI station after pollutant coverage check
+Bihar,Siwan,1,0,,,0,0,0,Unknown,No valid AQI station after pollutant coverage check
+Chandigarh,Chandigarh,3,3,406.25,487.55,2,1,0,Severe,Valid station data available
+Chhattisgarh,Bhilai,3,3,339.33,382.43,0,2,1,Very Poor,Valid station data available
+Chhattisgarh,Bilaspur,1,1,382.43,382.43,0,1,0,Very Poor,Valid station data available
+Chhattisgarh,Chhal,1,1,213.91,213.91,0,0,1,Poor,Valid station data available
+Chhattisgarh,Korba,2,2,233.52,329.7,0,1,0,Poor,Valid station data available
+Chhattisgarh,Kunjemura,1,1,329.7,329.7,0,1,0,Very Poor,Valid station data available
+Chhattisgarh,Milupara,1,1,162.41,162.41,0,0,0,Moderate,Valid station data available
+Chhattisgarh,Raipur,4,3,310.04,317.99,0,2,1,Very Poor,Valid station data available
+Chhattisgarh,Tumidih,1,1,271.3,271.3,0,0,1,Poor,Valid station data available
+Delhi,Delhi,44,44,413.67,500.0,24,18,0,Severe,Valid station data available
+Gujarat,Ahmedabad,8,8,378.28,500.0,3,4,0,Very Poor,Valid station data available
+Gujarat,Ankleshwar,1,1,493.77,493.77,1,0,0,Severe,Valid station data available
+Gujarat,Bhavnagar,1,1,500.0,500.0,1,0,0,Severe,Valid station data available
+Gujarat,Gandhinagar,3,3,367.18,412.83,1,2,0,Very Poor,Valid station data available
+Gujarat,Mehsana,1,1,500.0,500.0,1,0,0,Severe,Valid station data available
+Gujarat,Rajkot,1,1,500.0,500.0,1,0,0,Severe,Valid station data available
+Gujarat,Surat,2,2,418.87,437.74,1,1,0,Severe,Valid station data available
+Gujarat,Vadodara,1,1,500.0,500.0,1,0,0,Severe,Valid station data available
+Gujarat,Vapi,1,1,121.48,121.48,0,0,0,Moderate,Valid station data available
+Gujarat,Vatva,1,1,382.43,382.43,0,1,0,Very Poor,Valid station data available
+Haryana,Ambala,1,1,500.0,500.0,1,0,0,Severe,Valid station data available
+Haryana,Bahadurgarh,1,1,493.77,493.77,1,0,0,Severe,Valid station data available
+Haryana,Ballabgarh,1,1,500.0,500.0,1,0,0,Severe,Valid station data available
+Haryana,Bhiwani,1,1,312.13,312.13,0,1,0,Very Poor,Valid station data available
+Haryana,Charkhi Dadri,1,1,370.07,370.07,0,1,0,Very Poor,Valid station data available
+Haryana,Dharuhera,1,1,500.0,500.0,1,0,0,Severe,Valid station data available
+Haryana,Faridabad,3,3,445.19,500.0,2,1,0,Severe,Valid station data available
+Haryana,Fatehabad,1,1,487.55,487.55,1,0,0,Severe,Valid station data available
+Haryana,Gurugram,4,4,417.56,500.0,2,2,0,Severe,Valid station data available
+Haryana,Hisar,1,1,500.0,500.0,1,0,0,Severe,Valid station data available
+Haryana,Jind,1,1,366.23,366.23,0,1,0,Very Poor,Valid station data available
+Haryana,Kaithal,1,0,,,0,0,0,Unknown,No valid AQI station after pollutant coverage check
+Haryana,Karnal,1,1,493.77,493.77,1,0,0,Severe,Valid station data available
+Haryana,Kurukshetra,1,1,317.99,317.99,0,1,0,Very Poor,Valid station data available
+Haryana,Mandikhera,1,1,394.14,394.14,0,1,0,Very Poor,Valid station data available
+Haryana,Manesar,1,1,388.28,388.28,0,1,0,Very Poor,Valid station data available
+Haryana,Narnaul,1,1,304.07,304.07,0,1,0,Very Poor,Valid station data available
+Haryana,Palwal,1,1,481.32,481.32,1,0,0,Severe,Valid station data available
+Haryana,Panchgaon,1,1,395.4,395.4,0,1,0,Very Poor,Valid station data available
+Haryana,Panchkula,1,1,312.13,312.13,0,1,0,Very Poor,Valid station data available
+Haryana,Panipat,1,1,353.14,353.14,0,1,0,Very Poor,Valid station data available
+Haryana,Rohtak,1,1,425.28,425.28,1,0,0,Severe,Valid station data available
+Haryana,Sirsa,1,1,500.0,500.0,1,0,0,Severe,Valid station data available
+Haryana,Sonipat,1,1,388.28,388.28,0,1,0,Very Poor,Valid station data available
+Haryana,Yamuna Nagar,1,1,324.79,324.79,0,1,0,Very Poor,Valid station data available
+Himachal Pradesh,Baddi,1,1,500.0,500.0,1,0,0,Severe,Valid station data available
+Jammu and Kashmir,Pampore,1,0,,,0,0,0,Unknown,No valid AQI station after pollutant coverage check
+Jammu and Kashmir,Srinagar,2,2,236.15,271.3,0,0,2,Poor,Valid station data available
+Jharkhand,Dhanbad,1,1,124.81,124.81,0,0,0,Moderate,Valid station data available
+Jharkhand,Jorapokhar,1,1,431.51,431.51,1,0,0,Severe,Valid station data available
+Karnataka,Bagalkot,1,1,341.42,341.42,0,1,0,Very Poor,Valid station data available
+Karnataka,Bengaluru,10,10,253.32,500.0,3,1,1,Poor,Valid station data available
+Karnataka,Chamarajanagar,1,1,329.7,329.7,0,1,0,Very Poor,Valid station data available
+Karnataka,Chikkaballapur,1,1,347.28,347.28,0,1,0,Very Poor,Valid station data available
+Karnataka,Chikkamagaluru,1,1,271.3,271.3,0,0,1,Poor,Valid station data available
+Karnataka,Dharwad,1,1,431.51,431.51,1,0,0,Severe,Valid station data available
+Karnataka,Gadag,1,1,242.61,242.61,0,0,1,Poor,Valid station data available
+Karnataka,Hubballi,1,1,256.96,256.96,0,0,1,Poor,Valid station data available
+Karnataka,Kalaburagi,1,1,382.43,382.43,0,1,0,Very Poor,Valid station data available
+Karnataka,Karwar,1,1,364.85,364.85,0,1,0,Very Poor,Valid station data available
+Karnataka,Koppal,1,1,323.85,323.85,0,1,0,Very Poor,Valid station data available
+Karnataka,Madikeri,1,1,242.61,242.61,0,0,1,Poor,Valid station data available
+Karnataka,Mangalore,1,1,83.1,83.1,0,0,0,Satisfactory,Valid station data available
+Karnataka,Mysuru,1,1,64.0,64.0,0,0,0,Satisfactory,Valid station data available
+Karnataka,Ramanagara,1,1,335.56,335.56,0,1,0,Very Poor,Valid station data available
+Karnataka,Shivamogga,1,1,364.85,364.85,0,1,0,Very Poor,Valid station data available
+Karnataka,Vijayapura,1,1,329.7,329.7,0,1,0,Very Poor,Valid station data available
+Karnataka,Yadgir,1,1,213.91,213.91,0,0,1,Poor,Valid station data available
+Kerala,Thiruvananthapuram,1,0,,,0,0,0,Unknown,No valid AQI station after pollutant coverage check
+Kerala,Thrissur,1,1,329.7,329.7,0,1,0,Very Poor,Valid station data available
+Madhya Pradesh,Bhopal,3,3,224.81,312.13,0,1,1,Poor,Valid station data available
+Madhya Pradesh,Damoh,1,1,323.85,323.85,0,1,0,Very Poor,Valid station data available
+Madhya Pradesh,Dewas,1,1,109.0,109.0,0,0,0,Moderate,Valid station data available
+Madhya Pradesh,Gwalior,3,3,393.18,425.28,2,1,0,Very Poor,Valid station data available
+Madhya Pradesh,Indore,5,5,349.81,500.0,2,1,1,Very Poor,Valid station data available
+Madhya Pradesh,Jabalpur,4,4,377.86,493.77,2,1,1,Very Poor,Valid station data available
+Madhya Pradesh,Katni,1,1,370.71,370.71,0,1,0,Very Poor,Valid station data available
+Madhya Pradesh,Maihar,1,1,329.7,329.7,0,1,0,Very Poor,Valid station data available
+Madhya Pradesh,Mandideep,1,1,353.14,353.14,0,1,0,Very Poor,Valid station data available
+Madhya Pradesh,Pithampur,1,1,152.21,152.21,0,0,0,Moderate,Valid station data available
+Madhya Pradesh,Sagar,1,1,406.6,406.6,1,0,0,Severe,Valid station data available
+Madhya Pradesh,Satna,1,1,306.27,306.27,0,1,0,Very Poor,Valid station data available
+Madhya Pradesh,Singrauli,1,1,98.0,98.0,0,0,0,Satisfactory,Valid station data available
+Madhya Pradesh,Ujjain,1,1,347.28,347.28,0,1,0,Very Poor,Valid station data available
+Maharashtra,Ahmednagar,1,1,242.61,242.61,0,0,1,Poor,Valid station data available
+Maharashtra,Akola,1,1,285.65,285.65,0,0,1,Poor,Valid station data available
+Maharashtra,Ambernath,1,1,242.61,242.61,0,0,1,Poor,Valid station data available
+Maharashtra,Amravati,2,2,260.09,306.27,0,1,1,Poor,Valid station data available
+Maharashtra,Aurangabad,3,3,404.04,500.0,1,2,0,Severe,Valid station data available
+Maharashtra,Badlapur,1,1,312.13,312.13,0,1,0,Very Poor,Valid station data available
+Maharashtra,Beed,1,1,256.96,256.96,0,0,1,Poor,Valid station data available
+Maharashtra,Belapur,1,1,285.65,285.65,0,0,1,Poor,Valid station data available
+Maharashtra,Bhiwandi,1,1,228.26,228.26,0,0,1,Poor,Valid station data available
+Maharashtra,Boisar,1,1,285.65,285.65,0,0,1,Poor,Valid station data available
+Maharashtra,Chandrapur,2,2,465.76,500.0,2,0,0,Severe,Valid station data available
+Maharashtra,Dombivli,1,1,242.61,242.61,0,0,1,Poor,Valid station data available
+Maharashtra,Hingoli,1,1,187.47,187.47,0,0,0,Moderate,Valid station data available
+Maharashtra,Jalna,1,1,213.91,213.91,0,0,1,Poor,Valid station data available
+Maharashtra,Kalyan,2,1,437.74,437.74,1,0,0,Severe,Valid station data available
+Maharashtra,Kolhapur,2,2,162.4,174.94,0,0,0,Moderate,Valid station data available
+Maharashtra,Latur,1,1,228.26,228.26,0,0,1,Poor,Valid station data available
+Maharashtra,Mahad,1,1,329.7,329.7,0,1,0,Very Poor,Valid station data available
+Maharashtra,Malegaon,1,1,271.3,271.3,0,0,1,Poor,Valid station data available
+Maharashtra,Mira-Bhayandar,1,1,300.0,300.0,0,0,1,Poor,Valid station data available
+Maharashtra,Mumbai,21,20,303.26,456.42,4,10,2,Very Poor,Valid station data available
+Maharashtra,Nagpur,4,4,300.65,364.85,0,2,2,Very Poor,Valid station data available
+Maharashtra,Nanded,1,1,323.85,323.85,0,1,0,Very Poor,Valid station data available
+Maharashtra,Nashik,4,4,298.78,394.14,0,2,1,Poor,Valid station data available
+Maharashtra,Navi Mumbai,6,6,237.67,481.32,1,1,2,Poor,Valid station data available
+Maharashtra,Parbhani,1,1,228.26,228.26,0,0,1,Poor,Valid station data available
+Maharashtra,Pimpri-Chinchwad,6,5,295.35,431.51,1,2,0,Poor,Valid station data available
+Maharashtra,Pune,5,5,423.16,500.0,3,1,1,Severe,Valid station data available
+Maharashtra,Sangli,1,1,242.61,242.61,0,0,1,Poor,Valid station data available
+Maharashtra,Solapur,2,2,234.34,306.27,0,1,0,Poor,Valid station data available
+Maharashtra,Thane,2,2,249.78,271.3,0,0,2,Poor,Valid station data available
+Maharashtra,Ulhasnagar,2,2,332.63,335.56,0,2,0,Very Poor,Valid station data available
+Maharashtra,Virar,1,1,353.14,353.14,0,1,0,Very Poor,Valid station data available
+Meghalaya,Byrnihat,1,1,214.66,214.66,0,0,1,Poor,Valid station data available
+Meghalaya,Shillong,1,0,,,0,0,0,Unknown,No valid AQI station after pollutant coverage check
+Mizoram,Aizawl,1,1,112.28,112.28,0,0,0,Moderate,Valid station data available
+Nagaland,Kohima,1,1,124.81,124.81,0,0,0,Moderate,Valid station data available
+Odisha,Angul,1,1,500.0,500.0,1,0,0,Severe,Valid station data available
+Odisha,Balasore,1,1,394.14,394.14,0,1,0,Very Poor,Valid station data available
+Odisha,Barbil,1,1,312.13,312.13,0,1,0,Very Poor,Valid station data available
+Odisha,Baripada,1,1,124.81,124.81,0,0,0,Moderate,Valid station data available
+Odisha,Bhubaneswar,2,2,462.64,481.32,2,0,0,Severe,Valid station data available
+Odisha,Bileipada,1,1,341.42,341.42,0,1,0,Very Poor,Valid station data available
+Odisha,Brajrajnagar,1,1,364.85,364.85,0,1,0,Very Poor,Valid station data available
+Odisha,Byasanagar,1,0,,,0,0,0,Unknown,No valid AQI station after pollutant coverage check
+Odisha,Cuttack,1,1,500.0,500.0,1,0,0,Severe,Valid station data available
+Odisha,Keonjhar,1,1,406.6,406.6,1,0,0,Severe,Valid station data available
+Odisha,Rairangpur,1,1,271.3,271.3,0,0,1,Poor,Valid station data available
+Odisha,Rourkela,3,3,356.32,456.42,1,2,0,Very Poor,Valid station data available
+Odisha,Suakati,1,1,174.94,174.94,0,0,0,Moderate,Valid station data available
+Odisha,Talcher,1,1,353.14,353.14,0,1,0,Very Poor,Valid station data available
+Odisha,Tensa,1,1,55.0,55.0,0,0,0,Satisfactory,Valid station data available
+Puducherry,Puducherry,1,1,285.65,285.65,0,0,1,Poor,Valid station data available
+Punjab,Amritsar,1,1,370.71,370.71,0,1,0,Very Poor,Valid station data available
+Punjab,Bathinda,1,1,500.0,500.0,1,0,0,Severe,Valid station data available
+Punjab,Jalandhar,1,1,443.96,443.96,1,0,0,Severe,Valid station data available
+Punjab,Khanna,1,1,468.87,468.87,1,0,0,Severe,Valid station data available
+Punjab,Ludhiana,1,1,347.28,347.28,0,1,0,Very Poor,Valid station data available
+Punjab,Mandi Gobindgarh,1,1,500.0,500.0,1,0,0,Severe,Valid station data available
+Punjab,Patiala,1,1,358.99,358.99,0,1,0,Very Poor,Valid station data available
+Punjab,Rupnagar,1,1,500.0,500.0,1,0,0,Severe,Valid station data available
+Rajasthan,Ajmer,1,1,300.0,300.0,0,0,1,Poor,Valid station data available
+Rajasthan,Alwar,1,1,347.28,347.28,0,1,0,Very Poor,Valid station data available
+Rajasthan,Banswara,1,1,187.47,187.47,0,0,0,Moderate,Valid station data available
+Rajasthan,Baran,1,1,412.83,412.83,1,0,0,Severe,Valid station data available
+Rajasthan,Barmer,1,1,200.0,200.0,0,0,0,Moderate,Valid station data available
+Rajasthan,Bharatpur,1,1,228.26,228.26,0,0,1,Poor,Valid station data available
+Rajasthan,Bhilwara,1,1,425.28,425.28,1,0,0,Severe,Valid station data available
+Rajasthan,Bhiwadi,2,2,332.42,364.85,0,1,1,Very Poor,Valid station data available
+Rajasthan,Bikaner,1,1,256.96,256.96,0,0,1,Poor,Valid station data available
+Rajasthan,Bundi,1,1,256.96,256.96,0,0,1,Poor,Valid station data available
+Rajasthan,Chittorgarh,1,1,137.34,137.34,0,0,0,Moderate,Valid station data available
+Rajasthan,Churu,1,1,312.13,312.13,0,1,0,Very Poor,Valid station data available
+Rajasthan,Dausa,1,1,431.51,431.51,1,0,0,Severe,Valid station data available
+Rajasthan,Dholpur,1,1,323.85,323.85,0,1,0,Very Poor,Valid station data available
+Rajasthan,Dungarpur,1,1,376.57,376.57,0,1,0,Very Poor,Valid station data available
+Rajasthan,Hanumangarh,1,1,300.0,300.0,0,0,1,Poor,Valid station data available
+Rajasthan,Jaipur,6,6,421.68,500.0,4,2,0,Severe,Valid station data available
+Rajasthan,Jaisalmer,1,1,228.26,228.26,0,0,1,Poor,Valid station data available
+Rajasthan,Jalore,1,1,256.96,256.96,0,0,1,Poor,Valid station data available
+Rajasthan,Jhalawar,1,1,437.74,437.74,1,0,0,Severe,Valid station data available
+Rajasthan,Jhunjhunu,1,1,200.0,200.0,0,0,0,Moderate,Valid station data available
+Rajasthan,Jodhpur,5,4,282.28,456.42,1,0,2,Poor,Valid station data available
+Rajasthan,Karauli,1,1,306.27,306.27,0,1,0,Very Poor,Valid station data available
+Rajasthan,Khairthal,1,1,306.27,306.27,0,1,0,Very Poor,Valid station data available
+Rajasthan,Kota,3,3,320.64,406.6,1,1,1,Very Poor,Valid station data available
+Rajasthan,Nagaur,1,1,306.27,306.27,0,1,0,Very Poor,Valid station data available
+Rajasthan,Pali,1,1,370.71,370.71,0,1,0,Very Poor,Valid station data available
+Rajasthan,Pratapgarh,1,1,300.0,300.0,0,0,1,Poor,Valid station data available
+Rajasthan,Rajsamand,1,1,382.43,382.43,0,1,0,Very Poor,Valid station data available
+Rajasthan,Sawai Madhopur,1,1,285.65,285.65,0,0,1,Poor,Valid station data available
+Rajasthan,Sikar,1,1,242.61,242.61,0,0,1,Poor,Valid station data available
+Rajasthan,Sri Ganganagar,1,1,306.27,306.27,0,1,0,Very Poor,Valid station data available
+Rajasthan,Tonk,1,1,388.28,388.28,0,1,0,Very Poor,Valid station data available
+Rajasthan,Udaipur,1,1,400.0,400.0,0,1,0,Very Poor,Valid station data available
+Sikkim,Gangtok,1,1,124.81,124.81,0,0,0,Moderate,Valid station data available
+Tamil Nadu,Chennai,6,6,331.7,500.0,2,2,0,Very Poor,Valid station data available
+Tamil Nadu,Coimbatore,1,1,187.47,187.47,0,0,0,Moderate,Valid station data available
+Tamil Nadu,Cuddalore,2,1,59.0,59.0,0,0,0,Satisfactory,Valid station data available
+Tamil Nadu,Gummidipoondi,1,1,259.03,259.03,0,0,1,Poor,Valid station data available
+Tamil Nadu,Madurai,1,0,,,0,0,0,Unknown,No valid AQI station after pollutant coverage check
+Tamil Nadu,Thoothukudi,1,1,376.57,376.57,0,1,0,Very Poor,Valid station data available
+Telangana,Hyderabad,12,12,301.24,431.51,1,6,3,Very Poor,Valid station data available
+Tripura,Agartala,1,1,341.42,341.42,0,1,0,Very Poor,Valid station data available
+Uttar Pradesh,Agra,6,6,313.6,341.42,0,4,2,Very Poor,Valid station data available
+Uttar Pradesh,Baghpat,1,1,256.96,256.96,0,0,1,Poor,Valid station data available
+Uttar Pradesh,Bareilly,2,2,284.54,394.14,0,1,0,Poor,Valid station data available
+Uttar Pradesh,Bulandshahr,1,1,388.28,388.28,0,1,0,Very Poor,Valid station data available
+Uttar Pradesh,Firozabad,2,2,371.46,419.06,1,1,0,Very Poor,Valid station data available
+Uttar Pradesh,Ghaziabad,5,5,456.34,500.0,4,1,0,Severe,Valid station data available
+Uttar Pradesh,Gorakhpur,1,1,137.34,137.34,0,0,0,Moderate,Valid station data available
+Uttar Pradesh,Greater Noida,2,2,345.18,419.06,1,0,1,Very Poor,Valid station data available
+Uttar Pradesh,Hapur,1,1,114.66,114.66,0,0,0,Moderate,Valid station data available
+Uttar Pradesh,Jhansi,1,1,174.94,174.94,0,0,0,Moderate,Valid station data available
+Uttar Pradesh,Kanpur,3,3,421.86,500.0,2,1,0,Severe,Valid station data available
+Uttar Pradesh,Khora,1,1,500.0,500.0,1,0,0,Severe,Valid station data available
+Uttar Pradesh,Khurja,1,1,271.3,271.3,0,0,1,Poor,Valid station data available
+Uttar Pradesh,Lucknow,6,6,380.95,456.42,2,3,1,Very Poor,Valid station data available
+Uttar Pradesh,Mathura,1,1,300.0,300.0,0,0,1,Poor,Valid station data available
+Uttar Pradesh,Meerut,4,4,441.95,500.0,3,1,0,Severe,Valid station data available
+Uttar Pradesh,Modinagar,1,0,,,0,0,0,Unknown,No valid AQI station after pollutant coverage check
+Uttar Pradesh,Moradabad,6,6,391.84,500.0,3,3,0,Very Poor,Valid station data available
+Uttar Pradesh,Muzaffarnagar,1,1,462.64,462.64,1,0,0,Severe,Valid station data available
+Uttar Pradesh,Noida,4,4,397.87,487.55,2,1,1,Very Poor,Valid station data available
+Uttar Pradesh,Prayagraj,3,3,216.48,256.96,0,0,2,Poor,Valid station data available
+Uttar Pradesh,Raebareli,2,1,500.0,500.0,1,0,0,Severe,Valid station data available
+Uttar Pradesh,Varanasi,4,4,212.68,323.85,0,1,1,Poor,Valid station data available
+Uttar Pradesh,Vrindavan,1,1,200.0,200.0,0,0,0,Moderate,Valid station data available
+Uttarakhand,Dehradun,1,1,200.0,200.0,0,0,0,Moderate,Valid station data available
+Uttarakhand,Kashipur,1,1,306.27,306.27,0,1,0,Very Poor,Valid station data available
+Uttarakhand,Rishikesh,1,1,419.06,419.06,1,0,0,Severe,Valid station data available
+West Bengal,Asansol,4,3,361.65,481.32,1,1,1,Very Poor,Valid station data available
+West Bengal,Barrackpore,1,1,425.28,425.28,1,0,0,Severe,Valid station data available
+West Bengal,Durgapur,3,3,225.9,341.42,0,2,0,Poor,Valid station data available
+West Bengal,Haldia,1,1,419.06,419.06,1,0,0,Severe,Valid station data available
+West Bengal,Howrah,5,4,342.42,500.0,1,1,2,Very Poor,Valid station data available
+West Bengal,Kolkata,7,7,345.45,450.19,2,3,2,Very Poor,Valid station data available
+West Bengal,Siliguri,1,1,394.14,394.14,0,1,0,Very Poor,Valid station data available

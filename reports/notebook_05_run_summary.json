@@ -1,0 +1,51 @@
+{
+    "notebook": "05_advanced_intelligence_layers.ipynb",
+    "run_time": "2026-07-16 11:09:54",
+    "input_station_file": "C:\\Users\\Lenovo\\Desktop\\CleanAir_AI\\data\\processed\\station_source_attributed.csv",
+    "input_predictions_file": "C:\\Users\\Lenovo\\Desktop\\CleanAir_AI\\data\\processed\\test_predictions_with_uncertainty.csv",
+    "best_forecasting_model": "Random Forest",
+    "forecasting_best_metrics": {
+        "model": "Random Forest",
+        "mae": 14.5002,
+        "rmse": 39.879,
+        "r2": 0.8718,
+        "improvement_over_persistence_percent": 4.22
+    },
+    "station_rows": 500,
+    "city_rows": 266,
+    "unique_stations": 500,
+    "unique_cities": 264,
+    "unique_states": 29,
+    "hotspot_distribution": {
+        "Critical forecast hotspot": 346,
+        "High forecast hotspot": 76,
+        "Watchlist": 66,
+        "High current hotspot": 5,
+        "Critical current hotspot": 4,
+        "Emerging hotspot": 3
+    },
+    "priority_category_distribution": {
+        "Moderate": 263,
+        "Low": 151,
+        "High": 68,
+        "Minimal": 18
+    },
+    "source_distribution": {
+        "Biomass / fine-particle combustion": 160,
+        "Vehicular traffic": 134,
+        "Photochemical smog": 125,
+        "Construction / road dust": 46,
+        "Insufficient pollutant signal": 18,
+        "Industrial combustion": 17
+    },
+    "top_priority_city": "Khora",
+    "top_priority_state": "Uttar Pradesh",
+    "station_advanced_output_file": "C:\\Users\\Lenovo\\Desktop\\CleanAir_AI\\data\\processed\\station_advanced_intelligence.csv",
+    "city_advanced_output_file": "C:\\Users\\Lenovo\\Desktop\\CleanAir_AI\\data\\processed\\city_advanced_intelligence_summary.csv",
+    "top_hotspots_file": "C:\\Users\\Lenovo\\Desktop\\CleanAir_AI\\outputs\\top_priority_hotspots.csv",
+    "map_ready_file": "C:\\Users\\Lenovo\\Desktop\\CleanAir_AI\\outputs\\map_ready_advanced_hotspots.csv",
+    "priority_distribution_plot": "C:\\Users\\Lenovo\\Desktop\\CleanAir_AI\\outputs\\advanced_priority_distribution.png",
+    "top_cities_plot": "C:\\Users\\Lenovo\\Desktop\\CleanAir_AI\\outputs\\top_cities_by_advanced_priority.png",
+    "interactive_map_file": "C:\\Users\\Lenovo\\Desktop\\CleanAir_AI\\outputs\\cleanair_advanced_hotspot_map.html",
+    "note": "Satellite aerosol score is a proxy score derived from pollutant and weather signals, not direct satellite imagery."
+}

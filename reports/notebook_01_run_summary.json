@@ -1,0 +1,16 @@
+{
+    "notebook": "01_live_aqi_data_fetching.ipynb",
+    "run_time": "2026-07-16 05:38:20",
+    "raw_records": 3507,
+    "clean_long_records": 3220,
+    "station_level_records": 500,
+    "unique_stations": 500,
+    "unique_cities": 264,
+    "unique_states": 29,
+    "valid_aqi_stations": 478,
+    "invalid_aqi_stations": 22,
+    "history_records": 6072,
+    "latest_file": "C:\\Users\\Lenovo\\Desktop\\CleanAir_AI\\data\\processed\\station_intelligence_latest.csv",
+    "history_file": "C:\\Users\\Lenovo\\Desktop\\CleanAir_AI\\data\\processed\\station_aqi_history.csv",
+    "city_summary_file": "C:\\Users\\Lenovo\\Desktop\\CleanAir_AI\\data\\processed\\city_aqi_summary_latest.csv"
+}

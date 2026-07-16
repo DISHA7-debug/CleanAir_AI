@@ -1,0 +1,267 @@
+state,city,station_count,mean_reported_aqi,max_reported_aqi,mean_source_confidence,mean_environmental_risk_score,dominant_city_source
+Andhra Pradesh,Amaravati,1,500.0,500.0,28.03,51.86,Construction / road dust
+Andhra Pradesh,Anantapur,1,329.7,329.7,26.42,34.66,Biomass / fine-particle combustion
+Andhra Pradesh,Chittoor,1,323.85,323.85,26.22,37.09,Biomass / fine-particle combustion
+Andhra Pradesh,Eluru,1,306.27,306.27,26.25,37.99,Biomass / fine-particle combustion
+Andhra Pradesh,Guntur,1,271.3,271.3,22.92,31.32,Photochemical smog
+Andhra Pradesh,Kadapa,1,364.85,364.85,23.88,37.4,Photochemical smog
+Andhra Pradesh,Kurnool,1,174.94,174.94,26.26,17.03,Photochemical smog
+Andhra Pradesh,Machilipatnam,1,317.99,317.99,22.04,31.5,Photochemical smog
+Andhra Pradesh,Nellore,1,412.83,412.83,26.51,41.3,Photochemical smog
+Andhra Pradesh,Rajamahendravaram,1,353.14,353.14,22.36,39.87,Biomass / fine-particle combustion
+Andhra Pradesh,Tirumala,1,162.41,162.41,22.78,20.73,Photochemical smog
+Andhra Pradesh,Tirupati,1,323.85,323.85,26.14,37.9,Photochemical smog
+Andhra Pradesh,Vijayawada,4,391.04,481.32,27.7,43.5,Biomass / fine-particle combustion
+Andhra Pradesh,Visakhapatnam,1,228.26,228.26,25.91,35.16,Photochemical smog
+Assam,Byrnihat,1,500.0,500.0,41.75,63.47,Biomass / fine-particle combustion
+Assam,Guwahati,4,297.8,406.6,36.33,49.63,Biomass / fine-particle combustion
+Assam,Nagaon,1,329.7,329.7,38.23,50.06,Biomass / fine-particle combustion
+Assam,Nalbari,1,323.85,323.85,30.2,53.04,Vehicular traffic
+Assam,Silchar,1,388.28,388.28,24.59,48.85,Biomass / fine-particle combustion
+Assam,Sivasagar,1,312.13,312.13,32.91,52.51,Biomass / fine-particle combustion
+Bihar,Araria,1,317.99,317.99,25.18,42.37,Biomass / fine-particle combustion
+Bihar,Arrah,1,487.55,487.55,36.45,60.56,Biomass / fine-particle combustion
+Bihar,Aurangabad,1,,,20.23,,Photochemical smog
+Bihar,Begusarai,1,300.0,300.0,25.48,41.43,Biomass / fine-particle combustion
+Bihar,Bettiah,1,,,0.0,,Insufficient pollutant signal
+Bihar,Bhagalpur,2,323.85,323.85,26.34,53.17,Vehicular traffic
+Bihar,Bihar Sharif,1,500.0,500.0,49.1,62.99,Biomass / fine-particle combustion
+Bihar,Buxar,1,347.28,347.28,35.26,50.89,Biomass / fine-particle combustion
+Bihar,Chhapra,1,500.0,500.0,40.91,58.54,Biomass / fine-particle combustion
+Bihar,Gaya,2,380.42,425.28,29.88,50.18,Biomass / fine-particle combustion
+Bihar,Hajipur,1,406.6,406.6,47.82,62.13,Photochemical smog
+Bihar,Katihar,1,500.0,500.0,37.43,59.46,Biomass / fine-particle combustion
+Bihar,Kishanganj,1,256.96,256.96,28.94,38.35,Biomass / fine-particle combustion
+Bihar,Manguraha,1,,,0.0,,Insufficient pollutant signal
+Bihar,Motihari,1,228.26,228.26,30.8,34.69,Biomass / fine-particle combustion
+Bihar,Munger,1,412.83,412.83,28.19,49.68,Biomass / fine-particle combustion
+Bihar,Muzaffarpur,3,328.51,419.06,27.43,43.72,Biomass / fine-particle combustion
+Bihar,Patna,6,369.74,500.0,34.88,70.66,Vehicular traffic
+Bihar,Purnia,1,500.0,500.0,35.63,56.22,Biomass / fine-particle combustion
+Bihar,Rajgir,1,456.42,456.42,37.24,59.62,Biomass / fine-particle combustion
+Bihar,Saharsa,1,431.51,431.51,22.46,52.27,Photochemical smog
+Bihar,Samastipur,1,124.81,124.81,27.7,25.54,Biomass / fine-particle combustion
+Bihar,Sasaram,1,,,0.0,,Insufficient pollutant signal
+Bihar,Siwan,1,,,14.72,,Photochemical smog
+Chandigarh,Chandigarh,3,406.25,487.55,26.41,58.93,Photochemical smog
+Chhattisgarh,Bhilai,3,339.33,382.43,24.2,43.0,Biomass / fine-particle combustion
+Chhattisgarh,Bilaspur,1,382.43,382.43,32.86,49.66,Biomass / fine-particle combustion
+Chhattisgarh,Chhal,1,213.91,213.91,30.47,35.21,Biomass / fine-particle combustion
+Chhattisgarh,Korba,2,233.52,329.7,25.22,36.61,Biomass / fine-particle combustion
+Chhattisgarh,Kunjemura,1,329.7,329.7,23.38,46.23,Biomass / fine-particle combustion
+Chhattisgarh,Milupara,1,162.41,162.41,26.3,31.06,Biomass / fine-particle combustion
+Chhattisgarh,Raipur,4,310.04,317.99,17.68,42.98,Biomass / fine-particle combustion
+Chhattisgarh,Tumidih,1,271.3,271.3,22.32,48.91,Industrial combustion
+Delhi,Delhi,44,413.67,500.0,40.03,65.23,Vehicular traffic
+Gujarat,Ahmedabad,8,378.28,500.0,35.51,66.06,Vehicular traffic
+Gujarat,Ankleshwar,1,493.77,493.77,31.19,58.81,Biomass / fine-particle combustion
+Gujarat,Bhavnagar,1,500.0,500.0,37.08,62.75,Biomass / fine-particle combustion
+Gujarat,Gandhinagar,3,367.18,412.83,22.81,44.63,Photochemical smog
+Gujarat,Mehsana,1,500.0,500.0,33.67,54.56,Biomass / fine-particle combustion
+Gujarat,Rajkot,1,500.0,500.0,34.19,54.12,Biomass / fine-particle combustion
+Gujarat,Surat,2,418.87,437.74,35.03,68.89,Vehicular traffic
+Gujarat,Vadodara,1,500.0,500.0,43.12,76.02,Vehicular traffic
+Gujarat,Vapi,1,121.48,121.48,21.33,29.92,Photochemical smog
+Gujarat,Vatva,1,382.43,382.43,26.04,54.38,Industrial combustion
+Haryana,Ambala,1,500.0,500.0,35.99,57.2,Biomass / fine-particle combustion
+Haryana,Bahadurgarh,1,493.77,493.77,45.39,50.77,Biomass / fine-particle combustion
+Haryana,Ballabgarh,1,500.0,500.0,40.54,50.59,Biomass / fine-particle combustion
+Haryana,Bhiwani,1,312.13,312.13,27.36,30.98,Biomass / fine-particle combustion
+Haryana,Charkhi Dadri,1,370.07,370.07,41.85,34.59,Biomass / fine-particle combustion
+Haryana,Dharuhera,1,500.0,500.0,29.8,55.9,Industrial combustion
+Haryana,Faridabad,3,445.19,500.0,35.35,71.23,Photochemical smog
+Haryana,Fatehabad,1,487.55,487.55,48.01,59.72,Industrial combustion
+Haryana,Gurugram,4,417.56,500.0,39.25,63.73,Vehicular traffic
+Haryana,Hisar,1,500.0,500.0,33.2,58.82,Industrial combustion
+Haryana,Jind,1,366.23,366.23,42.14,40.68,Biomass / fine-particle combustion
+Haryana,Kaithal,1,,,0.0,,Insufficient pollutant signal
+Haryana,Karnal,1,493.77,493.77,33.62,63.6,Biomass / fine-particle combustion
+Haryana,Kurukshetra,1,317.99,317.99,37.74,48.88,Photochemical smog
+Haryana,Mandikhera,1,394.14,394.14,32.35,37.2,Photochemical smog
+Haryana,Manesar,1,388.28,388.28,29.36,47.16,Photochemical smog
+Haryana,Narnaul,1,304.07,304.07,27.23,27.73,Photochemical smog
+Haryana,Palwal,1,481.32,481.32,24.52,48.84,Photochemical smog
+Haryana,Panchgaon,1,395.4,395.4,44.24,39.04,Biomass / fine-particle combustion
+Haryana,Panchkula,1,312.13,312.13,28.39,50.84,Photochemical smog
+Haryana,Panipat,1,353.14,353.14,36.34,50.35,Industrial combustion
+Haryana,Rohtak,1,425.28,425.28,28.63,39.28,Biomass / fine-particle combustion
+Haryana,Sirsa,1,500.0,500.0,35.43,49.39,Biomass / fine-particle combustion
+Haryana,Sonipat,1,388.28,388.28,44.68,43.79,Biomass / fine-particle combustion
+Haryana,Yamuna Nagar,1,324.79,324.79,38.52,42.52,Biomass / fine-particle combustion
+Himachal Pradesh,Baddi,1,500.0,500.0,27.64,63.89,Construction / road dust
+Jammu and Kashmir,Pampore,1,,,18.78,,Construction / road dust
+Jammu and Kashmir,Srinagar,2,236.15,271.3,21.71,33.71,Construction / road dust
+Jharkhand,Dhanbad,1,124.81,124.81,31.96,22.57,Photochemical smog
+Jharkhand,Jorapokhar,1,431.51,431.51,27.98,51.24,Biomass / fine-particle combustion
+Karnataka,Bagalkot,1,341.42,341.42,20.61,33.88,Photochemical smog
+Karnataka,Bengaluru,10,253.32,500.0,34.95,52.95,Vehicular traffic
+Karnataka,Chamarajanagar,1,329.7,329.7,19.9,35.76,Biomass / fine-particle combustion
+Karnataka,Chikkaballapur,1,347.28,347.28,19.81,36.34,Construction / road dust
+Karnataka,Chikkamagaluru,1,271.3,271.3,21.47,32.79,Biomass / fine-particle combustion
+Karnataka,Dharwad,1,431.51,431.51,23.34,42.61,Biomass / fine-particle combustion
+Karnataka,Gadag,1,242.61,242.61,15.6,22.16,Photochemical smog
+Karnataka,Hubballi,1,256.96,256.96,17.1,24.12,Photochemical smog
+Karnataka,Kalaburagi,1,382.43,382.43,21.03,40.85,Biomass / fine-particle combustion
+Karnataka,Karwar,1,364.85,364.85,26.13,42.61,Biomass / fine-particle combustion
+Karnataka,Koppal,1,323.85,323.85,26.62,30.81,Photochemical smog
+Karnataka,Madikeri,1,242.61,242.61,24.86,33.66,Biomass / fine-particle combustion
+Karnataka,Mangalore,1,83.1,83.1,19.45,25.02,Photochemical smog
+Karnataka,Mysuru,1,64.0,64.0,19.47,10.51,Construction / road dust
+Karnataka,Ramanagara,1,335.56,335.56,25.87,40.4,Biomass / fine-particle combustion
+Karnataka,Shivamogga,1,364.85,364.85,23.2,41.7,Biomass / fine-particle combustion
+Karnataka,Vijayapura,1,329.7,329.7,19.97,33.27,Photochemical smog
+Karnataka,Yadgir,1,213.91,213.91,20.98,25.24,Photochemical smog
+Kerala,Thiruvananthapuram,1,,,0.0,,Insufficient pollutant signal
+Kerala,Thrissur,1,329.7,329.7,28.43,41.85,Biomass / fine-particle combustion
+Madhya Pradesh,Bhopal,3,224.81,312.13,31.12,47.8,Vehicular traffic
+Madhya Pradesh,Damoh,1,323.85,323.85,21.55,35.99,Biomass / fine-particle combustion
+Madhya Pradesh,Dewas,1,109.0,109.0,28.11,16.16,Photochemical smog
+Madhya Pradesh,Gwalior,3,393.18,425.28,28.57,38.83,Photochemical smog
+Madhya Pradesh,Indore,5,349.81,500.0,26.68,61.44,Vehicular traffic
+Madhya Pradesh,Jabalpur,4,377.86,493.77,25.57,43.84,Biomass / fine-particle combustion
+Madhya Pradesh,Katni,1,370.71,370.71,22.91,42.36,Biomass / fine-particle combustion
+Madhya Pradesh,Maihar,1,329.7,329.7,0.0,36.0,Insufficient pollutant signal
+Madhya Pradesh,Mandideep,1,353.14,353.14,26.0,47.21,Photochemical smog
+Madhya Pradesh,Pithampur,1,152.21,152.21,23.82,29.67,Photochemical smog
+Madhya Pradesh,Sagar,1,406.6,406.6,22.54,42.79,Biomass / fine-particle combustion
+Madhya Pradesh,Satna,1,306.27,306.27,24.55,36.54,Biomass / fine-particle combustion
+Madhya Pradesh,Singrauli,1,98.0,98.0,34.01,20.21,Photochemical smog
+Madhya Pradesh,Ujjain,1,347.28,347.28,23.72,39.27,Biomass / fine-particle combustion
+Maharashtra,Ahmednagar,1,242.61,242.61,20.38,27.56,Biomass / fine-particle combustion
+Maharashtra,Akola,1,285.65,285.65,22.14,27.6,Photochemical smog
+Maharashtra,Ambernath,1,242.61,242.61,19.6,30.11,Biomass / fine-particle combustion
+Maharashtra,Amravati,2,260.09,306.27,20.88,28.62,Photochemical smog
+Maharashtra,Aurangabad,3,404.04,500.0,29.5,49.68,Industrial combustion
+Maharashtra,Badlapur,1,312.13,312.13,23.85,37.79,Biomass / fine-particle combustion
+Maharashtra,Beed,1,256.96,256.96,18.4,29.13,Photochemical smog
+Maharashtra,Belapur,1,285.65,285.65,20.72,34.06,Biomass / fine-particle combustion
+Maharashtra,Bhiwandi,1,228.26,228.26,20.88,31.34,Biomass / fine-particle combustion
+Maharashtra,Boisar,1,285.65,285.65,25.56,38.84,Biomass / fine-particle combustion
+Maharashtra,Chandrapur,2,465.76,500.0,26.84,53.12,Biomass / fine-particle combustion
+Maharashtra,Dombivli,1,242.61,242.61,16.41,29.3,Photochemical smog
+Maharashtra,Hingoli,1,187.47,187.47,20.64,22.82,Photochemical smog
+Maharashtra,Jalna,1,213.91,213.91,22.78,33.68,Industrial combustion
+Maharashtra,Kalyan,2,437.74,437.74,11.72,51.62,Insufficient pollutant signal
+Maharashtra,Kolhapur,2,162.4,174.94,18.4,21.4,Biomass / fine-particle combustion
+Maharashtra,Latur,1,228.26,228.26,19.01,26.07,Photochemical smog
+Maharashtra,Mahad,1,329.7,329.7,31.64,41.62,Biomass / fine-particle combustion
+Maharashtra,Malegaon,1,271.3,271.3,24.8,30.02,Biomass / fine-particle combustion
+Maharashtra,Mira-Bhayandar,1,300.0,300.0,23.38,37.5,Biomass / fine-particle combustion
+Maharashtra,Mumbai,21,303.26,456.42,30.11,58.81,Vehicular traffic
+Maharashtra,Nagpur,4,300.65,364.85,31.38,56.53,Vehicular traffic
+Maharashtra,Nanded,1,323.85,323.85,24.48,36.19,Photochemical smog
+Maharashtra,Nashik,4,298.78,394.14,33.31,58.7,Vehicular traffic
+Maharashtra,Navi Mumbai,6,237.67,481.32,17.91,31.65,Biomass / fine-particle combustion
+Maharashtra,Parbhani,1,228.26,228.26,19.77,26.08,Photochemical smog
+Maharashtra,Pimpri-Chinchwad,6,295.35,431.51,17.13,34.47,Biomass / fine-particle combustion
+Maharashtra,Pune,5,423.16,500.0,37.01,67.32,Vehicular traffic
+Maharashtra,Sangli,1,242.61,242.61,18.07,27.96,Biomass / fine-particle combustion
+Maharashtra,Solapur,2,234.34,306.27,19.69,25.49,Biomass / fine-particle combustion
+Maharashtra,Thane,2,249.78,271.3,23.64,34.58,Photochemical smog
+Maharashtra,Ulhasnagar,2,332.63,335.56,23.0,38.49,Biomass / fine-particle combustion
+Maharashtra,Virar,1,353.14,353.14,21.18,40.49,Biomass / fine-particle combustion
+Meghalaya,Byrnihat,1,214.66,214.66,42.44,37.04,Biomass / fine-particle combustion
+Meghalaya,Shillong,1,,,12.2,,Photochemical smog
+Mizoram,Aizawl,1,112.28,112.28,18.88,21.94,Photochemical smog
+Nagaland,Kohima,1,124.81,124.81,27.1,45.89,Vehicular traffic
+Odisha,Angul,1,500.0,500.0,26.39,52.66,Biomass / fine-particle combustion
+Odisha,Balasore,1,394.14,394.14,21.99,43.15,Biomass / fine-particle combustion
+Odisha,Barbil,1,312.13,312.13,25.39,41.89,Biomass / fine-particle combustion
+Odisha,Baripada,1,124.81,124.81,21.0,21.5,Biomass / fine-particle combustion
+Odisha,Bhubaneswar,2,462.64,481.32,24.22,41.7,Biomass / fine-particle combustion
+Odisha,Bileipada,1,341.42,341.42,29.11,42.41,Biomass / fine-particle combustion
+Odisha,Brajrajnagar,1,364.85,364.85,28.17,50.13,Biomass / fine-particle combustion
+Odisha,Byasanagar,1,,,0.0,,Insufficient pollutant signal
+Odisha,Cuttack,1,500.0,500.0,32.26,59.84,Industrial combustion
+Odisha,Keonjhar,1,406.6,406.6,22.42,43.72,Biomass / fine-particle combustion
+Odisha,Rairangpur,1,271.3,271.3,23.05,36.1,Biomass / fine-particle combustion
+Odisha,Rourkela,3,356.32,456.42,27.35,50.17,Biomass / fine-particle combustion
+Odisha,Suakati,1,174.94,174.94,19.12,26.18,Construction / road dust
+Odisha,Talcher,1,353.14,353.14,26.03,41.39,Industrial combustion
+Odisha,Tensa,1,55.0,55.0,21.79,18.34,Construction / road dust
+Puducherry,Puducherry,1,285.65,285.65,28.32,30.21,Photochemical smog
+Punjab,Amritsar,1,370.71,370.71,34.75,48.02,Biomass / fine-particle combustion
+Punjab,Bathinda,1,500.0,500.0,31.78,53.85,Biomass / fine-particle combustion
+Punjab,Jalandhar,1,443.96,443.96,28.99,54.15,Photochemical smog
+Punjab,Khanna,1,468.87,468.87,28.32,55.42,Biomass / fine-particle combustion
+Punjab,Ludhiana,1,347.28,347.28,38.79,64.07,Photochemical smog
+Punjab,Mandi Gobindgarh,1,500.0,500.0,33.23,64.31,Industrial combustion
+Punjab,Patiala,1,358.99,358.99,25.96,43.71,Biomass / fine-particle combustion
+Punjab,Rupnagar,1,500.0,500.0,49.84,59.49,Biomass / fine-particle combustion
+Rajasthan,Ajmer,1,300.0,300.0,24.3,30.79,Photochemical smog
+Rajasthan,Alwar,1,347.28,347.28,30.41,34.94,Photochemical smog
+Rajasthan,Banswara,1,187.47,187.47,22.85,25.24,Photochemical smog
+Rajasthan,Baran,1,412.83,412.83,27.71,41.6,Photochemical smog
+Rajasthan,Barmer,1,200.0,200.0,31.12,35.55,Construction / road dust
+Rajasthan,Bharatpur,1,228.26,228.26,30.48,25.49,Photochemical smog
+Rajasthan,Bhilwara,1,425.28,425.28,23.73,46.76,Biomass / fine-particle combustion
+Rajasthan,Bhiwadi,2,332.42,364.85,29.34,36.63,Photochemical smog
+Rajasthan,Bikaner,1,256.96,256.96,29.43,26.8,Photochemical smog
+Rajasthan,Bundi,1,256.96,256.96,30.35,29.17,Photochemical smog
+Rajasthan,Chittorgarh,1,137.34,137.34,28.11,20.65,Photochemical smog
+Rajasthan,Churu,1,312.13,312.13,39.24,42.78,Construction / road dust
+Rajasthan,Dausa,1,431.51,431.51,27.85,41.62,Photochemical smog
+Rajasthan,Dholpur,1,323.85,323.85,27.25,31.63,Photochemical smog
+Rajasthan,Dungarpur,1,376.57,376.57,24.98,42.88,Biomass / fine-particle combustion
+Rajasthan,Hanumangarh,1,300.0,300.0,34.12,31.6,Photochemical smog
+Rajasthan,Jaipur,6,421.68,500.0,38.32,65.03,Vehicular traffic
+Rajasthan,Jaisalmer,1,228.26,228.26,25.59,23.63,Photochemical smog
+Rajasthan,Jalore,1,256.96,256.96,27.33,27.56,Photochemical smog
+Rajasthan,Jhalawar,1,437.74,437.74,26.69,46.73,Photochemical smog
+Rajasthan,Jhunjhunu,1,200.0,200.0,27.47,20.51,Photochemical smog
+Rajasthan,Jodhpur,5,282.28,456.42,29.31,29.7,Photochemical smog
+Rajasthan,Karauli,1,306.27,306.27,28.03,30.35,Photochemical smog
+Rajasthan,Khairthal,1,306.27,306.27,25.16,29.45,Photochemical smog
+Rajasthan,Kota,3,320.64,406.6,27.13,34.44,Photochemical smog
+Rajasthan,Nagaur,1,306.27,306.27,26.31,31.31,Photochemical smog
+Rajasthan,Pali,1,370.71,370.71,37.18,39.43,Biomass / fine-particle combustion
+Rajasthan,Pratapgarh,1,300.0,300.0,20.7,30.66,Photochemical smog
+Rajasthan,Rajsamand,1,382.43,382.43,23.12,45.08,Photochemical smog
+Rajasthan,Sawai Madhopur,1,285.65,285.65,30.22,28.85,Photochemical smog
+Rajasthan,Sikar,1,242.61,242.61,26.44,25.51,Photochemical smog
+Rajasthan,Sri Ganganagar,1,306.27,306.27,43.84,33.92,Photochemical smog
+Rajasthan,Tonk,1,388.28,388.28,26.26,38.98,Photochemical smog
+Rajasthan,Udaipur,1,400.0,400.0,27.64,44.71,Biomass / fine-particle combustion
+Sikkim,Gangtok,1,124.81,124.81,32.08,28.16,Biomass / fine-particle combustion
+Tamil Nadu,Chennai,6,331.7,500.0,41.1,58.73,Construction / road dust
+Tamil Nadu,Coimbatore,1,187.47,187.47,23.95,24.81,Biomass / fine-particle combustion
+Tamil Nadu,Cuddalore,2,59.0,59.0,0.0,13.74,Insufficient pollutant signal
+Tamil Nadu,Gummidipoondi,1,259.03,259.03,26.87,33.13,Construction / road dust
+Tamil Nadu,Madurai,1,,,0.0,,Insufficient pollutant signal
+Tamil Nadu,Thoothukudi,1,376.57,376.57,32.26,40.82,Photochemical smog
+Telangana,Hyderabad,12,301.24,431.51,32.75,54.5,Vehicular traffic
+Tripura,Agartala,1,341.42,341.42,23.94,35.64,Photochemical smog
+Uttar Pradesh,Agra,6,313.6,341.42,33.93,56.21,Vehicular traffic
+Uttar Pradesh,Baghpat,1,256.96,256.96,26.37,32.12,Photochemical smog
+Uttar Pradesh,Bareilly,2,284.54,394.14,28.52,41.62,Biomass / fine-particle combustion
+Uttar Pradesh,Bulandshahr,1,388.28,388.28,25.61,42.4,Photochemical smog
+Uttar Pradesh,Firozabad,2,371.46,419.06,24.95,40.25,Photochemical smog
+Uttar Pradesh,Ghaziabad,5,456.34,500.0,38.97,69.13,Vehicular traffic
+Uttar Pradesh,Gorakhpur,1,137.34,137.34,20.54,31.16,Photochemical smog
+Uttar Pradesh,Greater Noida,2,345.18,419.06,27.83,37.78,Construction / road dust
+Uttar Pradesh,Hapur,1,114.66,114.66,27.13,17.94,Construction / road dust
+Uttar Pradesh,Jhansi,1,174.94,174.94,19.57,24.24,Photochemical smog
+Uttar Pradesh,Kanpur,3,421.86,500.0,38.42,65.84,Vehicular traffic
+Uttar Pradesh,Khora,1,500.0,500.0,62.73,51.71,Biomass / fine-particle combustion
+Uttar Pradesh,Khurja,1,271.3,271.3,27.38,31.27,Photochemical smog
+Uttar Pradesh,Lucknow,6,380.95,456.42,34.35,67.07,Vehicular traffic
+Uttar Pradesh,Mathura,1,300.0,300.0,25.65,32.32,Photochemical smog
+Uttar Pradesh,Meerut,4,441.95,500.0,35.1,52.2,Photochemical smog
+Uttar Pradesh,Modinagar,1,,,9.72,,Industrial combustion
+Uttar Pradesh,Moradabad,6,391.84,500.0,27.38,50.59,Biomass / fine-particle combustion
+Uttar Pradesh,Muzaffarnagar,1,462.64,462.64,39.25,55.92,Biomass / fine-particle combustion
+Uttar Pradesh,Noida,4,397.87,487.55,36.42,67.64,Construction / road dust
+Uttar Pradesh,Prayagraj,3,216.48,256.96,25.15,32.25,Biomass / fine-particle combustion
+Uttar Pradesh,Raebareli,2,500.0,500.0,16.79,59.69,Biomass / fine-particle combustion
+Uttar Pradesh,Varanasi,4,212.68,323.85,26.75,35.87,Biomass / fine-particle combustion
+Uttar Pradesh,Vrindavan,1,200.0,200.0,28.37,23.23,Photochemical smog
+Uttarakhand,Dehradun,1,200.0,200.0,33.65,33.75,Biomass / fine-particle combustion
+Uttarakhand,Kashipur,1,306.27,306.27,29.9,41.83,Biomass / fine-particle combustion
+Uttarakhand,Rishikesh,1,419.06,419.06,23.95,51.27,Construction / road dust
+West Bengal,Asansol,4,361.65,481.32,24.75,45.26,Photochemical smog
+West Bengal,Barrackpore,1,425.28,425.28,27.04,48.47,Biomass / fine-particle combustion
+West Bengal,Durgapur,3,225.9,341.42,19.29,31.24,Construction / road dust
+West Bengal,Haldia,1,419.06,419.06,24.07,59.95,Industrial combustion
+West Bengal,Howrah,5,342.42,500.0,26.93,45.36,Biomass / fine-particle combustion
+West Bengal,Kolkata,7,345.45,450.19,34.59,65.93,Vehicular traffic
+West Bengal,Siliguri,1,394.14,394.14,26.62,51.65,Photochemical smog

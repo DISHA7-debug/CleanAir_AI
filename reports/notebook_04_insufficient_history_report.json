@@ -1,0 +1,10 @@
+{
+    "notebook": "04_ml_forecasting_models.ipynb",
+    "run_time": "2026-07-15 19:46:17",
+    "status": "Not enough real time-series history for forecasting",
+    "unique_timestamps_available": 1,
+    "total_rows_available": 463,
+    "minimum_unique_timestamps_required": 12,
+    "minimum_total_rows_required": 1000,
+    "recommendation": "Run Notebook 01 repeatedly over time, ideally hourly, so that station_aqi_history.csv accumulates multiple timestamps per station. A real forecasting model should not be trained from a single live snapshot."
+}

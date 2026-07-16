@@ -1,0 +1,24 @@
+{
+    "notebook": "03_source_attribution_landuse.ipynb",
+    "run_time": "2026-07-16 10:55:14",
+    "input_file": "C:\\Users\\Lenovo\\Desktop\\CleanAir_AI\\data\\processed\\station_weather_geospatial.csv",
+    "input_rows": 500,
+    "output_rows": 500,
+    "unique_stations": 500,
+    "unique_cities": 264,
+    "unique_states": 29,
+    "source_distribution": {
+        "Biomass / fine-particle combustion": 160,
+        "Vehicular traffic": 134,
+        "Photochemical smog": 125,
+        "Construction / road dust": 46,
+        "Insufficient pollutant signal": 18,
+        "Industrial combustion": 17
+    },
+    "confidence_distribution": {
+        "Low confidence": 447,
+        "Moderate confidence": 53
+    },
+    "output_file": "C:\\Users\\Lenovo\\Desktop\\CleanAir_AI\\data\\processed\\station_source_attributed.csv",
+    "city_summary_file": "C:\\Users\\Lenovo\\Desktop\\CleanAir_AI\\data\\processed\\city_source_attribution_summary.csv"
+}

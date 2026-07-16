@@ -1,0 +1,13 @@
+section,metric,value
+Project,Project name,CleanAir AI
+Data,History rows,5644
+Data,Unique timestamps,12
+Data,Unique stations,488
+Forecasting,Best model,Random Forest
+Forecasting,MAE,14.5002
+Forecasting,RMSE,39.879
+Forecasting,R2,0.8718
+Forecasting,Category accuracy,0.8905
+Forecasting,High AQI F1,0.9776
+Advanced Intelligence,Top priority city,Khora
+Advanced Intelligence,Top priority state,Uttar Pradesh

@@ -1,0 +1,59 @@
+{
+    "project_name": "CleanAir AI",
+    "run_time": "2026-07-16 11:18:32",
+    "objective": "CleanAir AI is an AQI intelligence platform that fetches real CPCB AQI data, adds weather and geospatial context, performs pollution source attribution, forecasts short-term AQI, identifies hotspots, and recommends interventions.",
+    "data_sources": {
+        "aqi_source": "CPCB/data.gov.in real AQI API",
+        "weather_source": "Open-Meteo weather API",
+        "satellite_layer": "Proxy aerosol score derived from pollutant and meteorological features"
+    },
+    "data_coverage": {
+        "history_rows": 5644,
+        "unique_timestamps": 12,
+        "unique_stations": 488,
+        "station_rows_advanced_layer": 500,
+        "city_rows_advanced_layer": 266,
+        "unique_cities": 264,
+        "unique_states": 29
+    },
+    "best_forecasting_model": {
+        "model": "Random Forest",
+        "metrics": {
+            "model": "Random Forest",
+            "mae": 14.5002,
+            "rmse": 39.879,
+            "r2": 0.8718,
+            "improvement_over_persistence_percent": 4.22
+        },
+        "category_accuracy": 0.8905,
+        "high_aqi_f1": 0.9776
+    },
+    "advanced_intelligence_outputs": {
+        "top_priority_city": "Khora",
+        "top_priority_state": "Uttar Pradesh",
+        "hotspot_distribution": {
+            "Critical forecast hotspot": 346,
+            "High forecast hotspot": 76,
+            "Watchlist": 66,
+            "High current hotspot": 5,
+            "Critical current hotspot": 4,
+            "Emerging hotspot": 3
+        },
+        "priority_category_distribution": {
+            "Moderate": 263,
+            "Low": 151,
+            "High": 68,
+            "Minimal": 18
+        }
+    },
+    "main_saved_files": {
+        "best_model": "C:\\Users\\Lenovo\\Desktop\\CleanAir_AI\\models\\best_aqi_forecast_model.pkl",
+        "model_comparison": "C:\\Users\\Lenovo\\Desktop\\CleanAir_AI\\outputs\\aqi_model_comparison.csv",
+        "feature_importance": "C:\\Users\\Lenovo\\Desktop\\CleanAir_AI\\outputs\\feature_importance.csv",
+        "station_advanced_intelligence": "C:\\Users\\Lenovo\\Desktop\\CleanAir_AI\\data\\processed\\station_advanced_intelligence.csv",
+        "city_advanced_intelligence": "C:\\Users\\Lenovo\\Desktop\\CleanAir_AI\\data\\processed\\city_advanced_intelligence_summary.csv",
+        "interactive_map": "C:\\Users\\Lenovo\\Desktop\\CleanAir_AI\\outputs\\cleanair_advanced_hotspot_map.html",
+        "ablation_results": "C:\\Users\\Lenovo\\Desktop\\CleanAir_AI\\outputs\\ablation_results.csv"
+    },
+    "important_limitation": "The forecasting model was trained on 12 real hourly AQI timestamps. This is suitable for prototype-level short-term forecasting, but collecting multiple days or weeks of history would improve robustness."
+}
