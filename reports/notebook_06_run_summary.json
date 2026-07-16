@@ -14,11 +14,11 @@
     "high_aqi_f1": 0.9776,
     "station_rows": 500,
     "city_rows": 266,
-    "ablation_results_file": "C:\\Users\\Lenovo\\Desktop\\CleanAir_AI\\outputs\\ablation_results.csv",
-    "final_project_summary_json": "C:\\Users\\Lenovo\\Desktop\\CleanAir_AI\\reports\\final_project_summary.json",
-    "final_project_summary_csv": "C:\\Users\\Lenovo\\Desktop\\CleanAir_AI\\reports\\final_project_summary.csv",
-    "model_card": "C:\\Users\\Lenovo\\Desktop\\CleanAir_AI\\docs\\model_card_cleanair_ai.md",
-    "data_dictionary": "C:\\Users\\Lenovo\\Desktop\\CleanAir_AI\\docs\\data_dictionary.csv",
-    "deliverable_checklist": "C:\\Users\\Lenovo\\Desktop\\CleanAir_AI\\reports\\final_deliverable_checklist.csv",
-    "final_model_review": "C:\\Users\\Lenovo\\Desktop\\CleanAir_AI\\outputs\\final_model_review.csv"
+    "ablation_results_file": "outputs/ablation_results.csv",
+    "final_project_summary_json": "reports/final_project_summary.json",
+    "final_project_summary_csv": "reports/final_project_summary.csv",
+    "model_card": "docs/model_card_cleanair_ai.md",
+    "data_dictionary": "docs/data_dictionary.csv",
+    "deliverable_checklist": "reports/final_deliverable_checklist.csv",
+    "final_model_review": "outputs/final_model_review.csv"
 }

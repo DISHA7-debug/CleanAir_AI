@@ -47,13 +47,14 @@
         }
     },
     "main_saved_files": {
-        "best_model": "C:\\Users\\Lenovo\\Desktop\\CleanAir_AI\\models\\best_aqi_forecast_model.pkl",
-        "model_comparison": "C:\\Users\\Lenovo\\Desktop\\CleanAir_AI\\outputs\\aqi_model_comparison.csv",
-        "feature_importance": "C:\\Users\\Lenovo\\Desktop\\CleanAir_AI\\outputs\\feature_importance.csv",
-        "station_advanced_intelligence": "C:\\Users\\Lenovo\\Desktop\\CleanAir_AI\\data\\processed\\station_advanced_intelligence.csv",
-        "city_advanced_intelligence": "C:\\Users\\Lenovo\\Desktop\\CleanAir_AI\\data\\processed\\city_advanced_intelligence_summary.csv",
-        "interactive_map": "C:\\Users\\Lenovo\\Desktop\\CleanAir_AI\\outputs\\cleanair_advanced_hotspot_map.html",
-        "ablation_results": "C:\\Users\\Lenovo\\Desktop\\CleanAir_AI\\outputs\\ablation_results.csv"
+        "best_model": "models/best_aqi_forecast_model.pkl",
+        "model_comparison": "outputs/aqi_model_comparison.csv",
+        "feature_importance": "outputs/feature_importance.csv",
+        "station_advanced_intelligence": "data/processed/station_advanced_intelligence.csv",
+        "city_advanced_intelligence": "data/processed/city_advanced_intelligence_summary.csv",
+        "interactive_map": "outputs/cleanair_advanced_hotspot_map.html",
+        "ablation_results": "outputs/ablation_results.csv",
+        "priority_ranking_ablation": "outputs/priority_ranking_ablation.csv"
     },
     "important_limitation": "The forecasting model was trained on 12 real hourly AQI timestamps. This is suitable for prototype-level short-term forecasting, but collecting multiple days or weeks of history would improve robustness."
 }

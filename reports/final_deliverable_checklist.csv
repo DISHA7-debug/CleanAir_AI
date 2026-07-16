@@ -1,14 +1,16 @@
 deliverable,path,exists
-Notebook 01,C:\Users\Lenovo\Desktop\CleanAir_AI\notebooks\01_live_aqi_data_fetching.ipynb,True
-Notebook 02,C:\Users\Lenovo\Desktop\CleanAir_AI\notebooks\02_weather_geospatial_integration.ipynb,True
-Notebook 03,C:\Users\Lenovo\Desktop\CleanAir_AI\notebooks\03_source_attribution_landuse.ipynb,True
-Notebook 04,C:\Users\Lenovo\Desktop\CleanAir_AI\notebooks\04_ml_forecasting_models.ipynb,True
-Notebook 05,C:\Users\Lenovo\Desktop\CleanAir_AI\notebooks\05_advanced_intelligence_layers.ipynb,True
-Notebook 06,C:\Users\Lenovo\Desktop\CleanAir_AI\notebooks\06_evaluation_ablation_packaging.ipynb,True
-Final project summary JSON,C:\Users\Lenovo\Desktop\CleanAir_AI\reports\final_project_summary.json,True
-Final project summary CSV,C:\Users\Lenovo\Desktop\CleanAir_AI\reports\final_project_summary.csv,True
-Model card,C:\Users\Lenovo\Desktop\CleanAir_AI\docs\model_card_cleanair_ai.md,True
-Data dictionary,C:\Users\Lenovo\Desktop\CleanAir_AI\docs\data_dictionary.csv,True
-Best model,C:\Users\Lenovo\Desktop\CleanAir_AI\models\best_aqi_forecast_model.pkl,True
-Interactive hotspot map,C:\Users\Lenovo\Desktop\CleanAir_AI\outputs\cleanair_advanced_hotspot_map.html,True
-Ablation results,C:\Users\Lenovo\Desktop\CleanAir_AI\outputs\ablation_results.csv,True
+Notebook 01,notebooks/01_live_aqi_data_fetching.ipynb,True
+Notebook 02,notebooks/02_weather_geospatial_integration.ipynb,True
+Notebook 03,notebooks/03_source_attribution_landuse.ipynb,True
+Notebook 04,notebooks/04_ml_forecasting_models.ipynb,True
+Notebook 05,notebooks/05_advanced_intelligence_layers.ipynb,True
+Notebook 06,notebooks/06_evaluation_ablation_packaging.ipynb,True
+Final project summary JSON,reports/final_project_summary.json,True
+Final project summary CSV,reports/final_project_summary.csv,True
+Model card,docs/model_card_cleanair_ai.md,True
+Data dictionary,docs/data_dictionary.csv,True
+Best model,models/best_aqi_forecast_model.pkl,True
+Interactive hotspot map,outputs/cleanair_advanced_hotspot_map.html,True
+Ablation results,outputs/ablation_results.csv,True
+Priority ranking ablation,outputs/priority_ranking_ablation.csv,True
+Best AQI forecast model copy,models/best_aqi_forecast_model.pkl,True

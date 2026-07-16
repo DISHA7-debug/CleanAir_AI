@@ -1,8 +1,8 @@
 {
     "notebook": "05_advanced_intelligence_layers.ipynb",
     "run_time": "2026-07-16 11:09:54",
-    "input_station_file": "C:\\Users\\Lenovo\\Desktop\\CleanAir_AI\\data\\processed\\station_source_attributed.csv",
-    "input_predictions_file": "C:\\Users\\Lenovo\\Desktop\\CleanAir_AI\\data\\processed\\test_predictions_with_uncertainty.csv",
+    "input_station_file": "data/processed/station_source_attributed.csv",
+    "input_predictions_file": "data/processed/test_predictions_with_uncertainty.csv",
     "best_forecasting_model": "Random Forest",
     "forecasting_best_metrics": {
         "model": "Random Forest",
@@ -40,12 +40,12 @@
     },
     "top_priority_city": "Khora",
     "top_priority_state": "Uttar Pradesh",
-    "station_advanced_output_file": "C:\\Users\\Lenovo\\Desktop\\CleanAir_AI\\data\\processed\\station_advanced_intelligence.csv",
-    "city_advanced_output_file": "C:\\Users\\Lenovo\\Desktop\\CleanAir_AI\\data\\processed\\city_advanced_intelligence_summary.csv",
-    "top_hotspots_file": "C:\\Users\\Lenovo\\Desktop\\CleanAir_AI\\outputs\\top_priority_hotspots.csv",
-    "map_ready_file": "C:\\Users\\Lenovo\\Desktop\\CleanAir_AI\\outputs\\map_ready_advanced_hotspots.csv",
-    "priority_distribution_plot": "C:\\Users\\Lenovo\\Desktop\\CleanAir_AI\\outputs\\advanced_priority_distribution.png",
-    "top_cities_plot": "C:\\Users\\Lenovo\\Desktop\\CleanAir_AI\\outputs\\top_cities_by_advanced_priority.png",
-    "interactive_map_file": "C:\\Users\\Lenovo\\Desktop\\CleanAir_AI\\outputs\\cleanair_advanced_hotspot_map.html",
+    "station_advanced_output_file": "data/processed/station_advanced_intelligence.csv",
+    "city_advanced_output_file": "data/processed/city_advanced_intelligence_summary.csv",
+    "top_hotspots_file": "outputs/top_priority_hotspots.csv",
+    "map_ready_file": "outputs/map_ready_advanced_hotspots.csv",
+    "priority_distribution_plot": "outputs/advanced_priority_distribution.png",
+    "top_cities_plot": "outputs/top_cities_by_advanced_priority.png",
+    "interactive_map_file": "outputs/cleanair_advanced_hotspot_map.html",
     "note": "Satellite aerosol score is a proxy score derived from pollutant and weather signals, not direct satellite imagery."
 }
