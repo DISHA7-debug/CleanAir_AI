@@ -1,0 +1,6 @@
+state,city,test_rows,mean_absolute_error,max_absolute_error,mean_actual_aqi,mean_predicted_aqi
+Andhra Pradesh,Amaravati,2,32.81,34.26,500.0,467.19
+Andhra Pradesh,Anantapur,2,5.63,6.97,332.63,338.26
+Andhra Pradesh,Chittoor,2,4.74,4.87,323.85,319.11
+Andhra Pradesh,Eluru,2,11.41,18.08,315.06,326.47
+Andhra Pradesh,Guntur,2,28.96,31.6,297.58,326.54

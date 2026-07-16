@@ -1,0 +1,6 @@
+model,mae,rmse,r2,improvement_over_persistence_percent
+Random Forest,14.5002,39.879,0.8718,4.22
+Persistence Baseline,15.1389,47.8739,0.8153,0.0
+Extra Trees,15.5204,41.618,0.8604,-2.52
+XGBoost,15.5493,40.2006,0.8698,-2.71
+Gradient Boosting,15.7028,39.6044,0.8736,-3.72

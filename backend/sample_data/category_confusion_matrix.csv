@@ -1,0 +1,6 @@
+actual_category,Good,Moderate,Poor,Satisfactory,Severe,Very Poor
+Good,3,0,0,2,2,0
+Moderate,0,73,20,0,0,3
+Poor,0,6,143,1,0,18
+Satisfactory,0,4,2,15,3,4
+Severe,0,0,1,0,316,8

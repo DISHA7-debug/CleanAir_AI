@@ -1,0 +1,6 @@
+state,city,stations,mean_current_aqi,max_current_aqi,mean_forecast_aqi,max_forecast_aqi,mean_priority_score,max_priority_score,current_hotspot_stations,forecast_hotspot_stations,emerging_hotspot_stations,mean_health_exposure_risk,mean_dispersion_index,mean_satellite_aerosol_proxy,city_priority_rank
+Uttar Pradesh,Khora,1,500.0,500.0,488.82,488.82,73.22,73.22,1,1,0,89.84,38.45,68.2,1
+Uttar Pradesh,Muzaffarnagar,1,462.64,462.64,491.16,491.16,72.69,72.69,1,1,1,80.41,65.87,49.64,2
+Assam,Byrnihat,1,500.0,500.0,492.13,492.13,71.76,71.76,1,1,0,78.33,83.01,32.61,3
+Haryana,Karnal,1,493.77,493.77,499.21,499.21,71.69,71.69,1,1,0,85.84,51.78,51.0,4
+Gujarat,Bhavnagar,1,500.0,500.0,500.0,500.0,69.99,69.99,1,1,0,73.49,81.32,32.07,5
