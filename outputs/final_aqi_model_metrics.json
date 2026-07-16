@@ -1,0 +1,50 @@
+{
+    "notebook": "04_ml_forecasting_models.ipynb",
+    "run_time": "2026-07-16 10:58:43",
+    "training_mode": "real_time_series_history",
+    "history_rows": 5644,
+    "model_rows": 5156,
+    "train_rows": 4124,
+    "test_rows": 1032,
+    "unique_stations": 488,
+    "unique_timestamps": 12,
+    "models_tested": [
+        "Random Forest",
+        "Persistence Baseline",
+        "Extra Trees",
+        "XGBoost",
+        "Gradient Boosting",
+        "HistGradientBoosting",
+        "Ridge Regression",
+        "Linear Regression"
+    ],
+    "best_model": "Random Forest",
+    "best_metrics": {
+        "model": "Random Forest",
+        "mae": 14.5002,
+        "rmse": 39.879,
+        "r2": 0.8718,
+        "improvement_over_persistence_percent": 4.22
+    },
+    "category_accuracy": 0.8905,
+    "high_aqi_threshold": 200,
+    "high_aqi_precision": 0.9634,
+    "high_aqi_recall": 0.9922,
+    "high_aqi_f1": 0.9776,
+    "lag_feature_importance_share_percent": 5.09,
+    "model_comparison_file": "C:\\Users\\Lenovo\\Desktop\\CleanAir_AI\\outputs\\aqi_model_comparison.csv",
+    "predictions_file": "C:\\Users\\Lenovo\\Desktop\\CleanAir_AI\\data\\processed\\test_predictions_with_uncertainty.csv",
+    "feature_importance_file": "C:\\Users\\Lenovo\\Desktop\\CleanAir_AI\\outputs\\feature_importance.csv",
+    "per_city_error_file": "C:\\Users\\Lenovo\\Desktop\\CleanAir_AI\\outputs\\per_city_error.csv",
+    "feature_columns_file": "C:\\Users\\Lenovo\\Desktop\\CleanAir_AI\\models\\feature_columns.json",
+    "best_model_file": "C:\\Users\\Lenovo\\Desktop\\CleanAir_AI\\models\\best_aqi_forecast_model.pkl",
+    "all_saved_models": {
+        "Linear Regression": "C:\\Users\\Lenovo\\Desktop\\CleanAir_AI\\models\\trained_forecasting_models\\linear_regression.pkl",
+        "Ridge Regression": "C:\\Users\\Lenovo\\Desktop\\CleanAir_AI\\models\\trained_forecasting_models\\ridge_regression.pkl",
+        "Random Forest": "C:\\Users\\Lenovo\\Desktop\\CleanAir_AI\\models\\trained_forecasting_models\\random_forest.pkl",
+        "Extra Trees": "C:\\Users\\Lenovo\\Desktop\\CleanAir_AI\\models\\trained_forecasting_models\\extra_trees.pkl",
+        "Gradient Boosting": "C:\\Users\\Lenovo\\Desktop\\CleanAir_AI\\models\\trained_forecasting_models\\gradient_boosting.pkl",
+        "HistGradientBoosting": "C:\\Users\\Lenovo\\Desktop\\CleanAir_AI\\models\\trained_forecasting_models\\histgradientboosting.pkl",
+        "XGBoost": "C:\\Users\\Lenovo\\Desktop\\CleanAir_AI\\models\\trained_forecasting_models\\xgboost.pkl"
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "total_stations": 500,
+    "total_cities": 264,
+    "total_states": 29,
+    "current_hotspot_stations": 414,
+    "forecast_hotspot_stations": 426,
+    "emerging_hotspot_stations": 37,
+    "top_priority_city": "Khora",
+    "top_priority_state": "Uttar Pradesh",
+    "hotspot_distribution": {
+        "Critical forecast hotspot": 346,
+        "High forecast hotspot": 76,
+        "Watchlist": 66,
+        "High current hotspot": 5,
+        "Critical current hotspot": 4,
+        "Emerging hotspot": 3
+    },
+    "priority_category_distribution": {
+        "Moderate": 263,
+        "Low": 151,
+        "High": 68,
+        "Minimal": 18
+    },
+    "source_distribution": {
+        "Biomass / fine-particle combustion": 160,
+        "Vehicular traffic": 134,
+        "Photochemical smog": 125,
+        "Construction / road dust": 46,
+        "Insufficient pollutant signal": 18,
+        "Industrial combustion": 17
+    }
+}
