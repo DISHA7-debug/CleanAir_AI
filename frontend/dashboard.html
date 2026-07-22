@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CleanAir AI — Urban Air Intelligence Console</title>
+<meta name="description" content="Decision-support console for city administrators: live AQI, hotspot maps, forecasting, and priority intervention queues.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+<!-- Leaflet (map) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Inline SVG clipPaths for Responsive Architectural Concave Cutouts -->
+<svg style="width:0; height:0; position:absolute;" aria-hidden="true">
+  <defs>
+    <!-- Concave Bottom Right -->
+    <clipPath id="clip-concave-br" clipPathUnits="objectBoundingBox">
+      <path d="M 0,0 L 1,0 L 1,0.82 Q 0.82,0.82 0.82,1 L 0,1 Z"/>
+    </clipPath>
+    <!-- Concave Bottom Left -->
+    <clipPath id="clip-concave-bl" clipPathUnits="objectBoundingBox">
+      <path d="M 0,0 L 1,0 L 1,1 L 0.18,1 Q 0.18,0.82 0,0.82 Z"/>
+    </clipPath>
+    <!-- Concave Top Right -->
+    <clipPath id="clip-concave-tr" clipPathUnits="objectBoundingBox">
+      <path d="M 0,0 L 0.82,0 Q 0.82,0.18 1,0.18 L 1,1 L 0,1 Z"/>
+    </clipPath>
+    <!-- Concave Top Left -->
+    <clipPath id="clip-concave-tl" clipPathUnits="objectBoundingBox">
+      <path d="M 0,0.18 Q 0.18,0.18 0.18,0 L 1,0 L 1,1 L 0,1 Z"/>
+    </clipPath>
+  </defs>
+</svg>
+
+<div class="app" id="app">
+
+  <!-- ============ SIDEBAR ============ -->
+  <aside class="sidebar" id="sidebar">
+    <div class="brand">
+      <div class="brand-mark" id="brandMark" aria-hidden="true">
+        <svg viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" style="width: 100%; height: 100%;">
+          <!-- Background Gauge / Speedometer -->
+          <g stroke="#1c2b22" stroke-width="1.8" fill="none">
+            <circle cx="23" cy="13" r="10"/>
+            <path d="M 16.5 17 A 7 7 0 1 1 29.5 17" stroke-dasharray="14 3" stroke-width="1.2"/>
+            <!-- Gauge Needle -->
+            <path d="M 23 13 L 26.5 7" stroke-linecap="round" stroke-width="2.2"/>
+            <circle cx="23" cy="13" r="1.5" fill="#1c2b22"/>
+          </g>
+          <!-- Foreground Cloud Shape -->
+          <path d="M 8.5 28.5 C 4 28.5 2 25.5 2 22.5 C 2 19.5 4.5 17.5 7.5 17.5 C 8.5 14 12 12.5 15.5 12.5 C 19.5 12.5 22.5 14.5 23.5 17.5 C 26.5 17.5 29 19.5 29 22.5 C 29 26 26.5 28.5 22.5 28.5 Z" fill="#1c2b22"/>
+          <!-- AQI Text inside Cloud -->
+          <text x="15.5" y="23.5" text-anchor="middle" fill="#ffffff" font-family="'Space Grotesk', 'Inter', sans-serif" font-weight="800" font-size="9" letter-spacing="-0.02em">AQI</text>
+        </svg>
+      </div>
+      <div class="brand-text">
+        <a href="index.html" class="brand-name" style="text-decoration:none; color:inherit;">CleanAir <em>AI</em></a>
+        <span class="brand-sub">Urban Air Intelligence</span>
+      </div>
+      <button class="sidebar-close" id="sidebarClose" aria-label="Close menu">✕</button>
+    </div>
+
+    <div class="sidebar-scroll">
+      <div class="filter-block">
+        <label class="filter-label" for="stateSelect">State / UT</label>
+        <select id="stateSelect" class="select">
+          <option value="">All states</option>
+        </select>
+      </div>
+
+      <div class="filter-block">
+        <label class="filter-label" for="citySelect">City</label>
+        <select id="citySelect" class="select">
+          <option value="">All cities</option>
+        </select>
+      </div>
+
+      <div class="filter-block">
+        <label class="filter-label" for="stationSelect">Station</label>
+        <select id="stationSelect" class="select">
+          <option value="">All stations</option>
+        </select>
+      </div>
+
+      <div class="filter-block">
+        <label class="filter-label" for="langSelect">Advisory language</label>
+        <select id="langSelect" class="select">
+          <option value="en">English</option>
+          <option value="hi">हिन्दी (Hindi)</option>
+          <option value="ta">தமிழ் (Tamil)</option>
+          <option value="kn">ಕನ್ನಡ (Kannada)</option>
+          <option value="bn">বাংলা (Bengali)</option>
+          <option value="mr">मराठी (Marathi)</option>
+          <option value="te">తెలుగు (Telugu)</option>
+        </select>
+      </div>
+
+      <button class="btn-refresh" id="refreshBtn">
+        <span class="refresh-icon" aria-hidden="true"></span>
+        <span class="refresh-label">Refresh live AQI</span>
+      </button>
+      <p class="refresh-note" id="refreshNote">Reloads pipeline outputs from disk.</p>
+
+      <nav class="tabnav" id="tabnav" aria-label="Dashboard sections">
+        <button class="tabnav-item is-active" data-tab="live">
+          <span class="tabnav-index">01</span>
+          <span>Live Intelligence</span>
+        </button>
+        <button class="tabnav-item" data-tab="maps">
+          <span class="tabnav-index">02</span>
+          <span>Maps &amp; Hotspots</span>
+        </button>
+        <button class="tabnav-item" data-tab="advanced">
+          <span class="tabnav-index">03</span>
+          <span>Advanced Layers</span>
+        </button>
+        <button class="tabnav-item" data-tab="ml">
+          <span class="tabnav-index">04</span>
+          <span>ML Forecasting</span>
+        </button>
+        <button class="tabnav-item" data-tab="queue">
+          <span class="tabnav-index">05</span>
+          <span>Priority Queue</span>
+        </button>
+      </nav>
+
+      <div class="api-block">
+        <label class="filter-label" for="apiBaseInput">Backend API base URL</label>
+        <input id="apiBaseInput" class="text-input" type="text" value="http://localhost:8000" spellcheck="false">
+        <div class="api-status" id="apiStatus"><span class="dot"></span><span id="apiStatusText">Checking connection…</span></div>
+      </div>
+    </div>
+  </aside>
+
+  <div class="sidebar-scrim" id="sidebarScrim"></div>
+
+  <!-- ============ MAIN ============ -->
+  <main class="main">
+
+    <header class="topbar">
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="pulseline" aria-hidden="true"><div class="pulseline-fill" id="pulselineFill"></div></div>
+      <h1 class="page-title" id="pageTitle">Live Intelligence</h1>
+    </header>
+
+    <section class="metric-strip" id="metricStrip">
+      <div class="metric-card">
+        <span class="metric-label">Monitoring stations</span>
+        <span class="metric-value" id="mStations">—</span>
+      </div>
+      <div class="metric-card">
+        <span class="metric-label">Cities covered</span>
+        <span class="metric-value" id="mCities">—</span>
+      </div>
+      <div class="metric-card">
+        <span class="metric-label">States / UTs covered</span>
+        <span class="metric-value" id="mStates">—</span>
+      </div>
+      <div class="metric-card metric-card--alert" id="mHighestCard">
+        <span class="metric-label">Highest AQI right now</span>
+        <span class="metric-value" id="mHighestValue">—</span>
+        <span class="metric-sub" id="mHighestName">—</span>
+        <div class="breath-ring" id="breathRing" aria-hidden="true"><span></span><span></span><span></span></div>
+      </div>
+    </section>
+
+    <div class="tab-panels">
+
+      <!-- TAB 1: LIVE INTELLIGENCE -->
+      <section class="tab-panel is-active" id="tab-live" data-tab-panel="live">
+        <div class="panel-head">
+          <h2>Live Intelligence</h2>
+          <p>Station-level readings for a city administrator — what's happening right now, and what to tell citizens.</p>
+        </div>
+        <div class="station-grid" id="stationGrid">
+          <div class="skeleton-card"></div>
+          <div class="skeleton-card"></div>
+          <div class="skeleton-card"></div>
+        </div>
+      </section>
+
+      <!-- TAB 2: MAPS & HOTSPOTS -->
+      <section class="tab-panel" id="tab-maps" data-tab-panel="maps">
+        <div class="panel-head">
+          <h2>Maps &amp; Hotspots</h2>
+          <p>Every monitored station, colored by AQI category and sized by intervention priority.</p>
+        </div>
+        <div class="card map-card">
+          <div id="leafletMap"></div>
+          <div class="map-legend" id="mapLegend"></div>
+        </div>
+        <div class="card">
+          <div class="card-head">
+            <h3>Top 15 stations nationally by current AQI</h3>
+          </div>
+          <div class="chart-wrap"><canvas id="topStationsChart"></canvas></div>
+        </div>
+      </section>
+
+      <!-- TAB 3: ADVANCED LAYERS -->
+      <section class="tab-panel" id="tab-advanced" data-tab-panel="advanced">
+        <div class="panel-head">
+          <h2>Advanced Layers</h2>
+          <p>Satellite, meteorology and land-use signals behind the priority score.</p>
+        </div>
+
+        <div class="disclosure-banner" id="advancedDisclosure">
+          <strong>Data provenance —</strong>
+          Satellite aerosol readings are real for the top-20 monitored cities; elsewhere the satellite layer is a
+          statistical proxy derived from ground pollutants and meteorology, not direct imagery. Land-use type and
+          road-density signals are proxies inferred from station/city naming, not verified GIS land-use data. Treat
+          every number on this tab as an intelligence signal, not a certified measurement.
+        </div>
+
+        <div class="metric-row" id="advancedMetricRow">
+          <div class="mini-metric">
+            <span class="mini-metric-label">Avg. satellite aerosol proxy</span>
+            <span class="mini-metric-value" id="avgSatellite">—</span>
+          </div>
+          <div class="mini-metric">
+            <span class="mini-metric-label">Avg. urban / mobility pressure proxy</span>
+            <span class="mini-metric-value" id="avgMobility">—</span>
+          </div>
+          <div class="mini-metric">
+            <span class="mini-metric-label">Avg. weather trapping score</span>
+            <span class="mini-metric-value" id="avgWeather">—</span>
+          </div>
+        </div>
+        <p class="fineprint">Scoped to the current State / City / Station filter. Urban / mobility pressure is approximated from <code>urban_pressure_score</code> and <code>road_density_proxy</code> — this pipeline does not yet output a dedicated mobility layer.</p>
+
+        <div class="card">
+          <div class="card-head"><h3>Land-use classification breakdown</h3></div>
+          <div class="chart-wrap chart-wrap--short"><canvas id="landuseChart"></canvas></div>
+        </div>
+      </section>
+
+      <!-- TAB 4: ML FORECASTING -->
+      <section class="tab-panel" id="tab-ml" data-tab-panel="ml">
+        <div class="panel-head">
+          <h2>ML Forecasting</h2>
+          <p>The honest scorecard — including the operationally meaningful numbers, not just the flattering ones.</p>
+        </div>
+
+        <div class="metric-row" id="mlHeadline"></div>
+
+        <div class="card">
+          <div class="card-head"><h3>Train / test methodology</h3></div>
+          <p id="splitMethodology" class="method-text">Loading…</p>
+        </div>
+
+        <div class="card">
+          <div class="card-head">
+            <h3>Model comparison — does adding features help?</h3>
+            <p class="card-sub">Includes the persistence baseline, with % improvement over it.</p>
+          </div>
+          <div class="table-scroll"><table class="data-table" id="modelComparisonTable"></table></div>
+        </div>
+
+        <div class="card">
+          <div class="card-head"><h3>Per-city error</h3><p class="card-sub">Not averaged away — every city, individually.</p></div>
+          <div class="table-scroll"><table class="data-table" id="perCityErrorTable"></table></div>
+        </div>
+
+        <div class="card">
+          <div class="card-head"><h3>Feature importance — top 15</h3></div>
+          <div class="chart-wrap"><canvas id="featureImportanceChart"></canvas></div>
+          <p class="fineprint" id="lagShareNote">—</p>
+        </div>
+      </section>
+
+      <!-- TAB 5: PRIORITY QUEUE -->
+      <section class="tab-panel" id="tab-queue" data-tab-panel="queue">
+        <div class="panel-head">
+          <h2>Data Tables &amp; Priority Queue</h2>
+          <p>The full intervention priority queue, and proof that it beats sorting by AQI alone.</p>
+        </div>
+
+        <div class="card">
+          <div class="card-head">
+            <h3>Naive AQI ranking vs. advanced priority ranking</h3>
+            <p class="card-sub">The direct answer to "is your ranking actually better than sorting by AQI."</p>
+          </div>
+          <div class="ablation-grid">
+            <div>
+              <h4 class="ablation-h">Naive AQI ranking</h4>
+              <div class="table-scroll table-scroll--tall"><table class="data-table data-table--compact" id="naiveRankTable"></table></div>
+            </div>
+            <div>
+              <h4 class="ablation-h">Advanced priority ranking</h4>
+              <div class="table-scroll table-scroll--tall"><table class="data-table data-table--compact" id="advancedRankTable"></table></div>
+            </div>
+          </div>
+          <div class="surfaced-block">
+            <h4 class="ablation-h">Newly surfaced only by advanced ranking</h4>
+            <div class="table-scroll"><table class="data-table" id="surfacedTable"></table></div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-head">
+            <h3>Intervention priority queue</h3>
+            <button class="btn-download" id="downloadCsvBtn">Download CSV</button>
+          </div>
+          <div class="queue-controls">
+            <input type="text" class="text-input" id="queueSearch" placeholder="Filter by city, station or source…">
+            <select class="select select--inline" id="queueTopN">
+              <option value="20">Top 20</option>
+              <option value="50">Top 50</option>
+              <option value="100">Top 100</option>
+              <option value="200">Top 200</option>
+            </select>
+          </div>
+          <div class="table-scroll table-scroll--tall"><table class="data-table" id="priorityQueueTable"></table></div>
+        </div>
+
+        <div class="card">
+          <div class="card-head"><h3>City-level risk summary</h3></div>
+          <div class="table-scroll table-scroll--tall"><table class="data-table" id="cityRiskTable"></table></div>
+        </div>
+      </section>
+
+    </div>
+  </main>
+</div>
+
+<!-- Persistent provenance footer -->
+<footer class="provenance-bar">
+  <span class="provenance-dot"></span>
+  Data provenance: Live CPCB (data.gov.in) · Open-Meteo · Sentinel-5P (top-20 cities, proxy elsewhere) · OpenStreetMap
+</footer>
+
+<div class="toast" id="toast"></div>
+
+<!-- Libraries -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+
+<script src="js/config.js"></script>
+<script src="js/api.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
