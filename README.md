@@ -1,62 +1,105 @@
-# CleanAir AI — Build Spec Package
+# CleanAir AI  
+## AI-Powered Urban Air Quality Intelligence for Smart City Intervention
 
-**AI-Powered Urban Air Quality Intelligence for Smart City Intervention**
-ET AI Hackathon 2026 — Problem Statement 5
+CleanAir AI is an end-to-end urban air-quality intelligence platform that moves beyond simple AQI dashboards. It collects real AQI data, enriches it with weather and geospatial proxy features, performs pollution source attribution, forecasts short-term AQI, ranks pollution hotspots, and recommends smart-city interventions.
 
-This folder contains **context and specification documents only** — no
-implementation code. Hand this whole folder to a coding agent (Claude Code,
-Cursor, etc.) along with the instruction to build the project according to
-these specs, in the order below.
+The goal is to help city authorities answer:
 
-## Read order
+- Where is pollution increasing?
+- Which locations need immediate intervention?
+- What is the likely source of pollution?
+- Where should enforcement teams be deployed first?
+- Which areas pose higher public-health risk?
 
-1. **PROJECT_CONTEXT.md** — master spec: pitch, requirement mapping,
-   architecture overview, tech stack, repo structure, team/timeline
-2. **ML_METHODOLOGY.md** — the reasoning behind every ML methodology choice
-   (why time-based split, why per-city metrics, why uncertainty bands, etc.)
-3. **ML_PIPELINE_SPEC.md** — concrete stage-by-stage build spec for the 6
-   data/ML notebooks (inputs, steps, outputs for each)
-4. **BACKEND_SPEC.md** — concrete API contract: endpoints, request/response
-   shapes, data file dependencies, error handling
-5. **FRONTEND_SPEC.md** — concrete UI spec: tabs, required content per tab,
-   interaction rules, tone/disclosure rules
-6. **ARCHITECTURE.md** — system diagram (prototype + production upgrade path)
-7. **JUDGE_QA.md** — the "why" behind every design decision, framed as
-   prepared answers to hackathon judge questions. Useful for the agent to
-   understand *why* a spec requirement exists (e.g. why time-based split is
-   non-negotiable) so it doesn't quietly simplify it away.
+---
 
-## One-sentence brief for the agent
+## Problem Statement
 
-Build a 6-stage data/ML pipeline (real CPCB + Open-Meteo + Sentinel-5P + OSM
-data), a FastAPI backend serving its outputs, and a dashboard — all exactly
-as specified in the docs above — optimizing throughout for **judge
-defensibility**: every "real data" claim must be a genuine API call, every
-proxy must be disclosed in the UI itself, ML evaluation must be time-split
-with per-city/per-category breakdowns (not just pooled RMSE), and the
-enforcement priority ranking must ship with an ablation table proving it beats
-naive AQI sorting.
+India’s air pollution crisis is no longer limited to a few major cities. Many Tier 1 and Tier 2 cities now experience dangerous AQI levels due to vehicle emissions, construction activity, industrial pollution, biomass burning, and weather-based pollutant trapping.
 
-## Suggested build order for the agent
+Most AQI dashboards only answer:
 
-1. Data pipeline Stage 1 (`ML_PIPELINE_SPEC.md` Stage 1) — get real CPCB data
-   flowing and cleaned first; everything else depends on this
-2. Stages 2-3 — weather, geospatial, source attribution
-3. Backend skeleton (`BACKEND_SPEC.md`) — can be built in parallel once Stage
-   1 output schema is stable, using placeholder/partial data
-4. Stage 4 — ML forecasting (the highest-scrutiny piece; needs accumulated
-   history, see prerequisite note in ML_PIPELINE_SPEC.md)
-5. Stages 5-6 — satellite validation, priority score, ablation, packaging
-6. Frontend/dashboard (`FRONTEND_SPEC.md`) — wire up against the backend once
-   real pipeline outputs exist, not against mocked data, so the demo is real
-   end-to-end
+> What is the AQI right now?
 
-## Non-negotiable constraints (do not let the agent simplify these away)
+But city administrators need actionable intelligence. They need a system that converts raw AQI readings into decisions, priorities, and intervention plans.
 
-- Time-based train/test split for all ML evaluation (never random shuffle)
-- Per-city AND per-AQI-category metrics reported, not only pooled RMSE
-- Real Sentinel-5P satellite pull (via Google Earth Engine) for at least the
-  top-20 hotspot cities — not a fully simulated satellite layer
-- Every proxy/heuristic layer labeled as such in both code and UI
-- Naive-vs-advanced priority ranking ablation table, saved as a real
-  artifact, not just reasoned about in text
+CleanAir AI fills this gap by creating an AI-powered intelligence layer for smart city air-quality management.
+
+---
+
+## Proposed Solution
+
+CleanAir AI transforms air-quality monitoring data into a complete decision-support system for urban authorities.
+
+The platform performs:
+
+- Live AQI data collection from CPCB/data.gov.in
+- Weather and geospatial enrichment
+- Pollution source attribution
+- Short-term AQI forecasting
+- Hotspot detection and ranking
+- Health-risk and intervention-priority scoring
+- Evidence-backed intervention recommendations
+- Interactive hotspot map generation
+
+Core idea:
+
+> Instead of only showing pollution levels, CleanAir AI helps decide where to act, why to act, and what action to take.
+
+---
+
+## Key Features
+
+### 1. Live AQI Data Fetching
+
+- Fetches real AQI data from CPCB/data.gov.in
+- Collects station, pollutant, location, city, state, and timestamp details
+- Builds hourly station-wise AQI history
+- Prevents duplicate timestamp entries
+
+### 2. AQI Data Cleaning and Validation
+
+- Cleans and standardizes pollutant records
+- Handles missing and invalid AQI values
+- Converts pollutant-level records into station-level AQI intelligence
+- Adds AQI validity and quality flags
+
+### 3. Weather and Geospatial Enrichment
+
+- Integrates weather features using Open-Meteo API
+- Adds temperature, humidity, rainfall, wind speed, cloud cover, and weather trapping features
+- Creates geospatial proxy features such as:
+  - Urban pressure score
+  - Road density proxy
+  - Environmental risk score
+
+### 4. Pollution Source Attribution
+
+The system estimates likely pollution source categories such as:
+
+- Vehicular traffic
+- Industrial combustion
+- Construction / road dust
+- Biomass / fine-particle combustion
+- Photochemical smog
+- Insufficient pollutant signal
+
+It also generates confidence levels and intervention recommendations based on the likely source.
+
+### 5. Multi-Model AQI Forecasting
+
+CleanAir AI compares multiple machine-learning models:
+
+- Persistence Baseline
+- Linear Regression
+- Ridge Regression
+- Random Forest
+- Extra Trees
+- Gradient Boosting
+- HistGradientBoosting
+- XGBoost
+
+Best model selected:
+
+```text
+Random Forest
